@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<h2>Basic example of a hidden table</h2>
+				<p>This table is contracted until opened and then displays full width. You can then click to close the table again to carry on reading.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<div class="campl-responsive-table">
+						<table summary="this is the table summary" class="campl-table-bordered campl-table-striped campl-table">
+							<caption>this is a sample caption</caption>
+							<thead>
+							<tr>
+								<th>Lorem ipsum dolor sit amet</th>
+								<th>consectetur adipisicing elit</th>
+								<th>sed do eiusmod tempor</th>
+								<th>incididunt ut labore</th>
+								<th>et dolore magna aliqua</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>Ut enim ad minim veniam</td>
+								<td>quis nostrud exercitation ullamco</td>
+								<td>laboris nisi ut aliquip</td>
+								<td>ex ea commodo consequat</td>
+								<td>Duis aute irure dolor in reprehenderit</td>
+							</tr>
+							<tr>
+								<td>Ut enim ad minim veniam</td>
+								<td>quis nostrud exercitation ullamco</td>
+								<td>laboris nisi ut aliquip</td>
+								<td>ex ea commodo consequat</td>
+								<td>Duis aute irure dolor in reprehenderit</td>
+							</tr>
+							<tr>
+								<td>Ut enim ad minim veniam</td>
+								<td>quis nostrud exercitation ullamco</td>
+								<td>laboris nisi ut aliquip</td>
+								<td>ex ea commodo consequat</td>
+								<td>Duis aute irure dolor in reprehenderit</td>
+							</tr>
+							<tr>
+								<td>Ut enim ad minim veniam</td>
+								<td>quis nostrud exercitation ullamco</td>
+								<td>laboris nisi ut aliquip</td>
+								<td>ex ea commodo consequat</td>
+								<td>Duis aute irure dolor in reprehenderit</td>
+							</tr>
+							</tbody>
+						</table>
+			
+					</div>
+				</div>
+			</div>
+		</div>			
+		<div class="campl-row campl-content">
+			<div class="campl-wrap clearfix">
+				<div class="campl-content-container">
+					<h2>Example of a hidden table with double layered table headers</h2>
+					<p>This table is contracted until opened and then displays full width. You can then click to close the table again to carry on reading.</p>
+				</div>
+			</div>
+		</div>
+		<div class="campl-row campl-content">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column12">
+					<div class="campl-content-container">				
+
+						<div class="campl-responsive-table">
+							<table class="campl-table-bordered campl-table-striped campl-table ">
+								<thead>
+									<tr>
+										<th>
+											&nbsp;
+										</th>
+										<th colspan="4">
+											Applications
+										</th>
+										<th colspan="4">
+											Offers
+										</th>
+										<th colspan="4">
+												Admissions
+										</th>
+									</tr>
+									<tr>
+										<th>Year</th><th>Count</th><th>	UK %</th><th>EU %</th><th>Overseas %</th><th>Count</th><th>UK %</th><th>EU %</th><th>Overseas %</th><th>Count</th><th>UK %</th><th>EU %</th><th>Overseas %</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2009-10</td><td>6,870</td><td>16.6 %</td><td>16.2 %</td><td>67.2 %</td><td>2,510</td><td>25.9 %</td><td>17.3 %</td><td>56.7 %</td><td>1,446</td><td>31.7 %</td><td>20.0 %</td><td>8.3 %</td>
+									</tr>
+									<tr>
+										<td>2008-9</td><td>5,575</td><td>18.0 %</td><td>5.4 %</td><td>66.6 %</td><td>2,281</td><td>26.9 %</td><td>15.9 %</td><td>57.2 %</td><td>1,282</td><td>34.1 %</td><td>18.4 %</td><td>47.5 %</td>
+									</tr>
+									<tr>
+										<td>2007-8</td><td>5,513</td><td>16.5 %</td><td>14.6 %</td><td>68.9 %</td><td>2,133</td><td>26.2 %</td><td>16.2 %</td><td>57.6 %</td><td>1,261</td><td>31.8 %</td><td>18.2 %</td><td>50.0 %<br /></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-content-container">
+						<h2>Example of a text-heavy hidden table without table headers</h2>
+						<p>This table is contracted until opened and then displays full width. You can then click to close the table again to carry on reading.</p>
+					</div>
+				</div>
+			</div>
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-column12">
+						<div class="campl-content-container">
+							<div class="campl-responsive-table">	
+							<table border="0" cellspacing="1" cellpadding="5" width="100%"  class="campl-table-bordered campl-table-striped campl-table ">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<p>
+												<b><span lang="FR">Indu Francis</span></b></p>
+												<p><span lang="FR">Tel:&nbsp;01223 415149</span></p>
+												<p><span lang="FR">07877 655 294</span></p>
+												<p><span><span lang="FR">Email:</span></span></p>
+												<p><span><span lang="FR"><span><a href="mailto:chintonaccomodation@yahoo.co.uk" target="_blank"><span>chintonaccomodation</span></a></span></span></span><span><span lang="FR"><span><a href="mailto:chintonaccomodation@yahoo.co.uk"target="_blank"><span>@yahoo.co.uk</span></a></span></span></span></p>
+												<p><strong><span lang="FR">&nbsp;</span></strong></p>
+												<span lang="FR"><p>&nbsp;</p></span>
+										</td>
+										<td valign="top">
+											<p><font><span>29 Kelsey Crescent</span><span></span></font></p>
+											<p><span><font>Cherry Hinton</font></span></p>
+											<p><font><span>Cambridge</span><span></span></font></p>
+											<p><span><font>CB1 9XT</font></span></p>
+											<p><span><font>&nbsp;</font></span></p>
+											<p><b><span><font>No smoking</font></span></b></p>
+											<p><span><font>&nbsp;</font></span></p>
+											<p><span><font>Parking</font></span></p>
+											<p><span><font>Disabled access</font></span></p>
+											<p><span><font>&nbsp;</font></span></p>
+											<p><b><span>3 Rooms</span></b><span>&nbsp;in separate annexe with own entrance and back door to Garden. LCD TV with Digital Freeview. High Speed wireless internet connection and 1 room has own fridge. Ample car parking. Bathroom with shower and kitchenette for self catering.<span>&nbsp;&nbsp;</span>Washing once a week.</span><span></span></p>
+											<p><span>Rent inclusive of all bills.<span>&nbsp;</span>Cleaner in twice a week</span></p>
+										</td>
+										<td valign="top">
+											<p><span><font>1) Single&nbsp;occupancy £40 per night;</font></span></p>
+											<p><span><font>2)&nbsp;Double&nbsp;occupancy&nbsp;£50 per night</font></span></p>
+											<p><b><span><font>&nbsp;</font></span></b></p>
+											<p><font><span>Self catering facilities:</span></font></p>
+											<p><font size="3"><font><font>&nbsp;</font></font></font></p>
+											<p><font><span>Weekly rates are:&nbsp;</span></font></p>
+											<p><font><span>single £150/week</span></font></p>
+											<p><font><span>double £190/week</span></font></p>
+											<p><font size="3"><font><font>&nbsp;</font></font></font></p>
+											<p><font><span>Monthly rates are:</span></font></p>
+											<p><font><span>single £475/month</span></font></p>
+											<p><font><span>Double £575/month</span></font></p>
+											<p><font><b><span>&nbsp;</span></b></font></p>
+											<p><span><font>Twin room also available (Double room rates)</font></span></p>
+											<p><span><font>&nbsp;</font></span></p>
+											<p><strong><u><span>Monthly rates apply for minimum 2 month bookings only</span></u></strong></p>
+											<p>&nbsp;</p>
+											<p>&nbsp;</p>
+											<p><font size="3"><strong><u><span>Weekly&nbsp;rates apply for minimum 2 weeks&nbsp;bookings only</span></u></strong></font></p>
+											<p>&nbsp;</p>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<p><strong><span>The Old Rosemary Branch</span></strong></p>
+											<p><span><strong>Stuart and Sue Anderson</strong><span>&nbsp;&nbsp;</span></span></p>
+											<p><span lang="DE">Tel:<span>&nbsp;&nbsp;</span>01223 247161</span></p>
+											<p><span><span lang="DE"><span>E-mail:&nbsp;<a href="mailto:saa30@cam.ac.uk" target="_blank"><span>saa30@cam.ac.uk</span></a></span></span></span><span>&nbsp;</span></p>
+											<p><span lang="DE"><span lang="DE"><span>Website:<a href="http://www.theoldrosemarybranch.co.uk/" target="_blank"><span>www.theoldrosemary</span></a></span></span></span></p>
+											<p><span lang="DE"><span lang="DE"><span><a href="http://www.theoldrosemarybranch.co.uk/" target="_blank"><span>branch.co.uk</span></a></span></span></span></p>
+											<p><span lang="DE">&nbsp;</span></p>
+										</td>
+										<td valign="top">
+											<p><span>67 Church End</span></p>
+											<p><span>Cherry Hinton</span></p>
+											<p><span>Cambridge</span><span></span></p>
+											<p><span>CB1 3LF</span></p>
+											<p>&nbsp;</p>
+											<p><strong><span>No Smoking</span></strong></p>
+											<p>&nbsp;</p>
+											<p><strong><span>Pets welcome and access to garden.</span></strong></p>
+											<p><strong><span>Off road parking.</span></strong></p>
+											<p>&nbsp;</p>
+											<p><span>Wifi</span></p>
+										</td>
+										<td valign="top">
+											<p><span>Single room from £35-45, (£245 weekly);&nbsp;1 twin, 1 double from £50-60 per night.<span>&nbsp;(weekly £350)&nbsp;</span></span></p>
+											<p>&nbsp;</p>
+											<p><span><strong>Includes breakfast.</strong></span></p>
+											<p>&nbsp;</p>
+											<p><span>Bus to city centre.</span></p>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<p><span><strong>Mrs Leena Menon</strong></span></p>
+											<p><span>Tel: 07843 624807</span></p>
+											<p><span><span><span>E-mail:&nbsp;<a href="mailto:leenakmenon@hotmail.com" target="_blank"><span>leenakmenon@hotmail.com</span></a></span></span></span></p>
+										</td>
+										<td valign="top">
+											<p><span>3 St Margaret’s Square</span></p>
+											<p><span>Cambridge</span></p>
+											<p><span>CB1 8AP</span></p>
+											<p>&nbsp;</p>
+											<p><strong><span>No Smoking</span></strong></p>
+											<p>&nbsp;</p>
+											<p><span>Free wireless internet access</span></p>
+											<p><span>TV in rooms</span></p>
+											<p><span>Good bus service</span></p>
+										</td>
+										<td>
+											<div>
+												<span style="p">Single room £20 per night (£130 per week), Double room £35 per night (£230 per week) with discount for longer stays.</span>
+											</div>
+											<div>&nbsp;</div>
+											<div>
+												<b><span style="p">Breakfast Not Included</span></b>
+											</div>
+											<div>&nbsp;</div>
+											<div>
+												<b><span style="p">Guests can store their own breakfast in our fridge&nbsp;and have access to the kitchen for making tea and coffee.</span></b>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<p><strong><span>Appletree House</span></strong></p>
+											<p><span><strong>Mrs Margaret Burke</strong></span></p>
+											<p><span>Tel: 01223 247882</span></p>
+											<p><span lang="DE">Tel: 07979 252062</span></p>
+											<p><span><span lang="DE"><span>E-mail:&nbsp;<a href="mailto:appletreehouse@btconnect.com" target="_blank"><span>appletreehouse@btconnect.</span></a></span></span></span></p>
+											<p><span><span lang="DE"><span><a href="mailto:appletreehouse@btconnect.com" target="_blank"><span>com</span></a></span></span></span></p>
+											<p><span><span lang="DE"><span>Website:&nbsp;<a href="http://www.appletreehouse564.co.uk/" target="_blank"><span>www.appletreehouse564.</span></a></span></span></span></p>
+											<p><span><span lang="DE"><span><a href="http://www.appletreehouse564.co.uk/" target="_blank"><span>co.uk</span></a></span></span></span></p>
+										</td>
+										<td valign="top">
+											<p><span>564 Coldhams Lane</span></p>
+											<p><span>Cambridge</span></p>
+											<p><span>CB1 3JR</span></p>
+											<p><span>&nbsp;</span></p>
+											<p><strong><span>No Smoking</span></strong></p>
+										</td>
+										<td>
+											<p><span>Single room £35, (£210 per week);&nbsp;Double/Twin room £60 per night, single person occupancy £45 per night.</span></p>
+											<p>&nbsp;</p>
+											<p><span><strong>Inclusive of Continental breakfast.</strong></span></p>
+											<p><span><strong><br /></strong></span></p>
+											<p><span><strong><br /></strong></span></p>
+											<p><span><strong><br /></strong></span></p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-content-container">
+						<h2>Basic example of a vertical stacking responsive table</h2>
+				
+					</div>
+				</div>
+			</div>
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-column12">
+						<div class="campl-content-container">
+
+							<table summary="" class="campl-table-bordered campl-table-striped campl-table  campl-vertical-stacking-table">
+								<thead>
+								<tr>
+									<th>
+										<strong>Month</strong>
+									</th>
+									<th>
+										<strong>Deadline for Department for contractual paperwork to be with RA team</strong>
+									</th>
+									<th>
+										<strong>Deadline for Department for Temp Input (i.e. overtime/hrs claims) to Payroll</strong>
+									</th>
+									<th>
+										<strong>Pay Date</strong>
+									</th>
+								</tr>
+								</thead>
+									<tbody>
+									<tr>
+										<td>January</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>February</td>
+										<td>3rd</td>
+										<td>10th</td>
+										<td>24th</td>
+									</tr>
+									<tr>
+										<td>March</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>April</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>May</td>
+										<td>4th</td>
+										<td>11th</td>
+										<td>25th</td>
+									</tr>
+									<tr>
+										<td>June</td>
+										<td>1st</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>July</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>August</td>
+										<td>3rd</td>
+										<td>10th</td>
+										<td>24th</td>
+									</tr>
+									<tr>
+										<td>September</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>October</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>November</td>
+										<td>5th</td>
+										<td>12th</td>
+										<td>26th</td>
+									</tr>
+									<tr>
+										<td>December</td>
+										<td>30th November</td>
+										<td>7th</td>
+										<td>21st</td>
+									</tr>
+								</tbody>
+							</table>
+				
+						</div>
+					</div>
+				</div>
+			</div>			
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-content-container">
+						<h2>Example of a vertical stacking responsive table with row scoped headers inside the table body</h2>
+
+					</div>
+				</div>
+			</div>
+			<div class="campl-row campl-content">
+				<div class="campl-wrap clearfix">
+					<div class="campl-column12">
+						<div class="campl-content-container">
+		
+					<table class="campl-table-bordered campl-table-striped campl-table campl-vertical-stacking-table">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Salary</th>
+								<th>Reference</th>
+								<th>Closes</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" >
+									<a href="http://www.jobs.cam.ac.uk/job/531/" target="_blank">Associate Specialty Director in Palliative Care</a><br />
+									Department of Public Health and Primary Care, The Primary Care Unit
+								</th>
+								<td>
+									£30,992-£53,663 pa
+								</td>
+								<td>
+									SN00445
+								</td>
+								<td>
+									27 August 2012
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<a href="http://www.jobs.cam.ac.uk/job/154/" target="_blank">Clinical Lecturer in Anaesthesia&nbsp;</a><br />
+									Department of Medicine, Division of Anaesthesia
+								</th>
+								<td>
+									£30,992-£53,663 pa
+								</td>
+								<td>
+									RU00119
+								</td>
+								<td>
+									20 August 2012
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<a href="http://www.jobs.cam.ac.uk/job/507/" target="_blank">Clinical Lecturer in Medical Genetics or Public Health</a><br />
+									Department of Public Health and Primary Care, The Primary Care Unit
+								</th>
+								<td>
+									£30,992-£53,663 pa
+								</td>
+								<td>
+									SN00423
+								</td>
+								<td>
+									27 August 2012
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<a href="http://www.jobs.cam.ac.uk/job/170/" target="_blank">Clinical Lecturer in Medical Oncology</a><br />
+									Department of Oncology
+								</th>
+								<td>
+									£30,992-£53,663 pa
+								</td>
+								<td>
+									RD00131
+								</td>
+								<td>
+									5 October 2012
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><a href="http://www.jobs.cam.ac.uk/job/-16982/" target="_blank">Lecturer in Criminology</a><br />
+									Institute of Criminology
+								</th>
+								<td>
+									£37,012-£46,846 pa
+								</td>
+								<td>
+									JL16982
+								</td>
+								<td>
+									31 July 2012<br />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Tables</h3>
+						
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							
+							
+							<p>There are two basic options for displaying tables. Both options look the same at wider screen widths, 
+								but differ when viewed at smaller screen widths.</p>
+
+							<p>Which option is more appropriate will depend on the table’s content.</p>
+
+							<p>With both options, at wide screen widths, the full table is displayed.</p>
+
+							<h5>Hidden table</h5>
+							<p>This option is best where changing the table’s layout for different screen sizes would make the data difficult to understand.</p>
+
+							<p>At smaller screen widths, the full table is hidden beneath a link. When the user clicks the link, the table 
+								appears at full width. This may mean the user has to scroll right to see the full table, but provides 
+								the best compromise experience. The user can click again to close the table if they wish.</p>
+
+							<h5>Vertical stacking table</h5>
+							<p>At small screen widths, the table’s columns are stacked vertically, one above the other. This option works 
+								well if each column’s content will make sense to the user in isolation, such as with a list of contact names and addresses.</p>
+
+
+							<hr />
+							<h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>Table styles have been borrowed from <a href="http://twitter.github.com/bootstrap/base-css.html#tables">Twitter Bootstrap</a> but have been customised
+								heavily to reduce unwanted styles and code bloat. </p>
+							<p>Full size expanded tables have been given a fixed width of 1024 px regardless of browser width. </p>
+							<p>To create the vertical stacking table view CSS is used to change the table cell display style. This functionality is not available in IE9 as
+								the browser does not support changing the display property of a table cell. Table headers are then hidden with CSS and each table cell is 
+								altered to appear as if it is a row of data.</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>Both table solutions will require the inclusion of the tables Javascript.</p>
+							<p>The expanding tables use Javascript to initially hide the table, clone the table caption and append this cloned text to a link describing 
+								what the user will see if they expand the table. A collapse table link is appended to the container to allow you to 
+								close the table if it has been opened.</p>
+							<p>The vertical table structure uses Javascript to detect table headers and add them to each row of content. This way the table header is
+								repeated within each row so they are visible whilst the user is scrolling through table data.</p>
+							<p>Users without Javascript will see the tables as they appear normally.</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>N/a</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+
+
+</body>
+</html>

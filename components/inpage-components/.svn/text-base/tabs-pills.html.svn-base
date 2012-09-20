@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body class="campl-theme-1">
+
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column3">
+				<p>&nbsp;</p>
+			</div>
+			<div class="campl-column6 ">
+				<div class="campl-content-container">
+			         <ul id="navTabs" class="campl-nav campl-nav-tabs campl-unstyled-list">
+		              <li class="active"><a href="#item-1" data-toggle="tab">Lorem ipsum</a></li>
+		              <li><a href="#item-2" data-toggle="tab">Adipisicing elit</a></li>
+		            </ul>
+		            <div id="tabContent" class="tab-content">
+		            	<div class="tab-pane fade in active" id="item-1">
+							<div class="campl-content-container">
+								<h2>Tab content 1</h2>
+		                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>             
+		 				</div>
+		              	<div class="tab-pane fade" id="item-2">
+							<div class="campl-content-container">
+								<h2>Tab content 2</h2>
+		                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>              
+						</div>
+		            </div>
+		
+					<hr />
+					
+					<ul class="campl-nav campl-nav-pills" id="navPills">
+					  <li class="campl-active"><a href="#pill-1">Lorem ipsum dolor</a></li>
+					  <li><a href="#pill-2">Sed do eiusmod tempor</a></li>
+					  <li><a href="#pill-3">Incididunt ut labore</a></li>
+					  <li><a href="#pill-4">Dolore magna aliqua</a></li>
+					  <li><a href="#pill-5">Ut enim ad minim veniam</a></li>
+					  <li><a href="#pill-6">Quis nostrud exercitation ullamco</a></li>
+					  <li><a href="#pill-7">Duis aute irure dolor in reprehenderit lorem ipsum dolor sit amet</a></li>
+					  <li><a href="#pill-8">Excepteur sint occaecat cupidatat</a></li>
+					</ul>
+					
+					<div id="pillContent" class="tab-content">
+		            	<div class="tab-pane fade in active" id="pill-1">
+							<div class="campl-content-container">
+								<h2>Pills content 1</h2>
+		                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		              		</div>
+						</div>
+		              	<div class="tab-pane fade" id="pill-2">
+							<div class="campl-content-container">
+								<h2>Pills content 2</h2>
+		                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		              		</div>
+						</div>
+					  	<div class="tab-pane fade" id="pill-3">
+							<div class="campl-content-container">
+								<h2>Pills content 3</h2>
+		                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		              		</div>
+						</div>
+					  	<div class="tab-pane fade" id="pill-4">
+							<div class="campl-content-container">
+								<h2>Pills content 4</h2>
+			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			              	</div>
+						</div>
+						<div class="tab-pane fade" id="pill-5">
+							<div class="campl-content-container">
+								<h2>Pills content 5</h2>
+			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			              </div>
+						</div>
+						<div class="tab-pane fade" id="pill-6">
+							<div class="campl-content-container">
+								<h2>Pills content 6</h2>
+			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			              	</div>
+						</div>
+						<div class="tab-pane fade" id="pill-7">
+							<div class="campl-content-container">
+								<h2>Pills content 7</h2>
+			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			              	</div>
+						</div>
+						<div class="tab-pane fade" id="pill-8">
+							<div class="campl-content-container">
+								<h2>Pills content 8</h2>
+			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			              </div>
+						</div>
+		            </div>
+				</div>
+			</div>
+			<div class="campl-column3 campl-secondary-content">
+				&nbsp;
+			</div>
+		</div>	
+	</div>
+	
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Tabbed navigation and pill navigation</h3>
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>This component provides an easy way for users to switch between different panels of related information.</p>
+
+							<p>The pills style is the most flexible option to accommodate potentially either many or few tabs, with varying character lengths.</p>
+
+							<p>The same solution applies at any screen widths, and the pills wrap as required - ie more than one pill can appear in a given row.</p>
+
+							<hr />
+							<h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>The pills and tabs require the <a href="http://twitter.github.com/bootstrap/javascript.html#tabs">Twitter Bootstrap</a> Javascript library to function.
+								Each widget requires explicit declaration inside the DOM ready event.</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>We recommend using tabs sparingly as the horizontal layout does not lend itself to
+								 viewing on the mobile platforms.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/bootstrap-tabs.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

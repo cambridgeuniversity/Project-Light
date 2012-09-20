@@ -1,0 +1,1273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	<div class="campl-row campl-global-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column9" id="global-header-controls">
+				
+				<a href="/" class="campl-main-logo">
+					<img alt=""  src="../../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+				</a>
+				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation" id="primary-nav">
+					<li>
+						<a href="#study-with-us">Study with us</a>
+					</li>
+					<li>
+						<a href="#about-the-university">About the University</a>
+					</li>
+					<li>
+						<a href="" id="campl-no-drawer">Our research</a>
+					</li>
+				</ul>
+				<div class="campl-site-search" id="site-search-btn">
+
+				</div>
+			</div>
+			<div class="campl-column3">
+				<div class="campl-quicklinks">
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<div class="campl-row campl-global-header campl-search-drawer">
+		<div class="campl-wrap clearfix">
+			<form class="campl-site-search-form" id="site-search-container" action="">
+				<div class="campl-search-form-wrapper clearfix">
+					<input type="text" class="text" placeholder="Search"/>
+					<input type="image" class="campl-search-submit" src="../../images/interface/btn-search.png" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="campl-row campl-global-navigation-drawer">
+
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column12 campl-home-link-container">
+				<a href="" >Home</a>
+			</div>
+		</div>
+		<div class="campl-wrap clearfix">		
+			<div class="campl-column9 campl-global-navigation-mobile-list">
+				<div class="campl-global-navigation-outer clearfix" id="study-with-us">
+					<ul class="campl-unstyled-list campl-global-navigation-header-container ">
+						<li><a href="" >Study with us</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Undergraduate</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Graduate</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list related-pages last">
+							<li>
+								<a href="" >International students</a>
+							</li>
+							<li>
+								<a href="" >Lifelong learning</a>
+							</li>
+							<li>
+								<a href="" >Professional learning</a>
+							</li>
+							<li class="last">
+								<a href="" >Courses in education</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="about-the-university">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >About the University</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Maps</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">History</a>
+								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list last">
+							<li>
+								<a href="" >News &amp; Events</a>
+							</li>
+							<li>
+								<a href="" >Jobs</a>
+							</li>
+							<li>
+								<a href="" >Giving to Cambridge</a>
+							</li>
+							<li>
+								<a href="" >Community outreach</a>
+							</li>
+							<li>
+								<a href="" >International cambridge</a>
+							</li>
+							<li class="last">
+								<a href="" >Publications</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="our-research">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >Our research</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3">
+				<ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+					<li>
+						<a href="">For staff &amp; students</a>
+					</li>
+					<li>
+						<a href="">For alumni</a>
+					</li>
+					<li>
+						<a href="">For business</a>
+					</li>
+					<li>
+						<a href="">For teachers</a>
+					</li>
+					<li>
+						<a href="">Colleges &amp; departments</a>
+					</li>
+					<li>
+						<a href="">Libraries &amp; facilities</a>
+					</li>
+					<li>
+						<a href="">Museums &amp; collections</a>
+					</li>
+					<li class="last">
+						<a href="">Email &amp; phone search</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-page-header">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<div class="campl-breadcrumb" id="breadcrumb">
+						<ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
+							<li class='first-child'>
+								<a href="#" class="campl-home ir">Home</a>
+							</li>
+							<li>
+								<a href="">Graduate Admissions</a>
+							</li>
+							<li>
+								<a href="">Prospective Graduate Students</a>
+							</li>
+							<li>
+								<a href="">Studying at Cambridge</a>
+							</li>
+							<li>
+								<p class="campl-current">Qualifications Directory</p>
+							</li>
+						</ul>
+
+					</div>
+					<p class="campl-page-title">Graduate Admissions</p>
+
+					<p class="campl-mobile-parent"><a href=""><span class="campl-back-btn campl-menu-indicator"></span>Studying at Cambridge</a></p>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="campl-row campl-page-header">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container campl-co-branding-container">
+					<div class="campl-breadcrumb" id="breadcrumb">
+						<ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
+							<li class='first-child'>
+								<a href="#" class="campl-home ir">Home</a>
+							</li>
+							<li>
+								<a href="">Department A-Z</a>
+							</li>
+							<li>
+								<p class="campl-current">University of Cambridge Enterprise</p>
+							</li>
+						</ul>
+
+					</div>
+					
+					<img src="../../images/content/co-branding.png" class="campl-co-branding-logo" alt="" />
+					<p class="campl-page-title">University of Cambridge Enterprise</p>
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="campl-row campl-page-header">	
+		<div class="campl-wrap clearfix campl-local-navigation" id="local-nav">
+			<div class="campl-local-navigation-container">
+				<ul class="campl-unstyled-list">
+					<li><a href="#">About us</a></li>
+					<li><a href="#" class="campl-selected">Prospective Students</a>
+						<ul class="campl-unstyled-list local-dropdown-menu">
+							<li><a href="#">Step 1 - Why Cambridge</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">The City</a></li>
+									<li><a href="#">The University</a></li>
+									<li><a href="#">Benefits of Studying at Cambridge</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Step 2 - Studying at Cambridge</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Qualifications Directory</a></li>
+									<li><a href="#">Modes of Study</a></li>
+									<li><a href="#">Fees and Costs</a></li>
+									<li><a href="#">Funding Your Studies</a></li>
+									<li><a href="#">Immigration</a></li>
+									<li><a href="#">Bringing your Family</a></li>
+									<li><a href="#">Accommodation</a></li>
+									<li><a href="#">The Colleges</a></li>
+									<li><a href="#">University Policy and Guidelines</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Step 3 - How to apply</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Supporting Documentation</a></li>
+									<li><a href="#">Continuation and Readmission</a></li>
+									<li><a href="#">Your Self-Service Account</a></li>
+									<li><a href="#">Application and Funding Deadlines</a></li>
+									<li><a href="#">Application Fees</a></li>
+									<li><a href="#">College Choice</a></li>
+									<li><a href="#">Disabled Applicants</a></li>
+									<li><a href="#">Entrance Requirements</a></li>
+									<li><a href="#">Part-Time Study and Research</a></li>
+									<li><a href="#">Privacy - Your Personal Data</a></li>
+									<li><a href="#">Research Topic and Resources</a></li>
+									<li><a href="#">Staff Applicants</a></li>
+									<li><a href="#">Starting Dates</a></li>
+									<li><a href="#">Applying Paper</a></li>
+								</ul>	
+							</li>
+							<li><a href="#">Step 4 - I've applied - What Next?</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Status Of Your Application</a></li>
+									<li><a href="#">Conditions of Admission</a></li>
+									<li><a href="#">If Your Circumstances Change</a></li>
+									<li><a href="#">Confirmation of Admission</a></li>
+									<li><a href="#">Continuation</a></li>
+									<li><a href="#">Immigration</a></li>
+									<li><a href="#">Admissions Complaints</a></li>
+								</ul>							
+							</li>
+							<li><a href="#">Frequently asked questions</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Prospective Graduate Students</a></li>
+									<li><a href="#">Referees</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Site map</a></li>
+						</ul> 
+					</li>
+				</ul>	
+			</div>
+		</div>
+
+
+
+		<div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
+			<div class="campl-column3 campl-spacing-column">
+				&nbsp;
+			</div>
+			<div class="campl-column9">
+				<div class="campl-content-container">
+					<p class="campl-sub-title">Qualifications Directory</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="campl-row campl-content campl-recessed-content">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3">
+					<div class="campl-tertiary-navigation">
+						<div class="campl-tertiary-navigation-structure">
+							<ul class="campl-unstyled-list campl-vertical-breadcrumb">
+								<li><a href="local-navigation-01.html">Faculty of Modern &amp; Medieval Languages <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+								<li><a href="local-navigation-02.html">Departments <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+								<li><a href="local-navigation-03.html">French <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+							</ul>	
+							<ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation">	
+								<li class="campl-selected"><a href="local-navigation-04.html">French in the MML Tripos</a>
+									<ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
+										<li class="campl-selected"><a href="local-navigation-05.html">Year 1</a></li>
+										<li><a href="#3">Year 2</a></li>
+										<li><a href="#2">Year 3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				<div class="campl-column6 " id="content">
+					<img src="../images/content/recessed-image-placeholder.jpg" alt="" class="campl-scale-with-grid" />
+					<div class="campl-content-container">
+						<h1>Print Sampler</h1>
+						<p>To test components are printing correctly or being removed from the page as appropriate</p>
+						
+						
+						<div class="campl-content-container campl-vertical-padding clearfix">					
+							<h2>Calendar</h2>
+							<div id="calendar" class="calendar-container">
+								<ul class="campl-unstyled-list campl-event-dates">
+									<li>
+										<a href="date-01.html" class="highlighted-dates" data-highlighted="30 08 2012">Event name 01</a>
+									</li>
+									<li>
+										<a href="date-02.html" class="highlighted-dates" data-highlighted="25 09 2012">Event name 02</a>
+									</li>
+									<li>
+										<a href="date-03.html" class="highlighted-dates" data-highlighted="03 08 2012">Event name 02</a>
+									</li>
+								</ul>
+						 	</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Contextual Search</h2>
+							<div class="campl-content-container campl-inpage-search-container">
+								<label for="inpage-search" class="hidden">Search page content</label>
+								<div class="campl-search-input">
+								  <input id="inpage-search" type="text" value=""  />
+								  <input type="image" class="campl-search-submit " src="../../images/interface/btn-search-inpage.png" />
+								</div>
+							</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Listing item</h2>
+						
+							<div class="campl-listing-item event-listing clearfix">
+								<div class="campl-column8">
+									<div class="campl-content-container campl-listing-txt">
+										<p class="campl-listing-title"><a href="">Event listing with image</a></p>
+										<div class="campl-event-details clearfix">
+											<dl class="campl-event-details-dl campl-column3 event-time">
+												<dt>Time: </dt><dd>9:00am - 6:00pm</dd>
+											</dl>
+											<dl class="campl-event-details-dl event-location campl-column9">
+												<dt>Location: </dt><dd>Cambridge University Library</dd>
+											</dl>	
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									</div>
+								</div>
+								<div class="campl-column4">
+									<div class="campl-content-container campl-listing-img">
+										<img alt=""  src="../../images/content/image-placeholder.jpg" class="campl-scale-with-grid" />
+									</div>
+								</div>
+							</div>
+
+							<div class="campl-listing-item campl-search-listing clearfix">
+								<div class="campl-column8">
+									<div class="campl-content-container campl-listing-txt">
+										<p class="campl-listing-title"><a href="">Search listing with image </a></p>
+										<span class="campl-datestamp">11 Nov 2010</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<p><a href=''>Lorem-ipsum-dolor-sit-amet/consectetur-adipisicing-elit/sed-do-eiusmod.html - 19.45kb</a></p>
+									</div>
+								</div>
+								<div class="campl-column4">
+									<div class="campl-content-container campl-listing-img">
+										<img alt=""  src="../../images/content/image-placeholder.jpg" class="campl-scale-with-grid" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Notification</h2>
+						
+							<div class="campl-notifications-panel campl-success-panel campl-notifications-container clearfix">
+								<div class="campl-column4">
+									<p class="campl-notifications-icon campl-success-icon">Success:</p>
+								</div>
+								<div class="campl-column8">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								</div>
+							</div>
+							<div class="campl-notifications-panel campl-warning-panel campl-notifications-container clearfix">
+								<div class="campl-column4">
+									<p class="campl-notifications-icon campl-warning-icon">Warning:</p>
+								</div>
+								<div class="campl-column8">
+									<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="campl-notifications-panel campl-alert-panel campl-notifications-container clearfix">
+								<div class="campl-column4">
+									<p class="campl-notifications-icon campl-alert-icon">Alert:</p>
+								</div>
+								<div class="campl-column8">
+									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+								</div>
+							</div>
+							<div class="campl-notifications-panel campl-information-panel campl-notifications-container clearfix">
+								<div class="campl-column4">
+									<p class="campl-notifications-icon campl-information-icon">Information:</p>
+								</div>
+								<div class="campl-column8">
+									<p>Laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Pagination</h2>
+						
+							<div class="campl-paging-container clearfix">
+								<h2 class="campl-current-date">25th September 2012</h2>
+								<ul class="campl-unstyled-list clearfix campl-paging" >
+									<li class="campl-previous-li">
+										<a class="ir campl-paging-btn campl-previous" href="#" style="">
+											<span class="campl-arrow-span"></span>
+											Older
+										</a>
+									</li>
+
+									<li class="campl-next-li">
+										<a class="ir campl-paging-btn campl-next" href="#" style="">
+											<span class="campl-arrow-span"></span>
+											Newer
+										</a>
+									</li>
+								</ul>
+							</div>
+						 	<div class="campl-pagination campl-pagination-centered">
+						        <ul>
+						          <li class="campl-previous-li"><a href="#" class="ir campl-pagination-btn campl-previous"><span class="campl-arrow-span"></span>previous</a></li>
+						          <li class="campl-active"><a href="#">1</a></li>
+						          <li><a href="#">2</a></li>
+						          <li><a href="#">3</a></li>
+						          <li><a href="#">4</a></li>
+						          <li class="campl-next-li"><a href="#" class="ir campl-pagination-btn campl-next"><span class="campl-arrow-span"></span>next</a></li>
+						        </ul>
+						      </div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+						
+							<h2>tables</h2>
+							<div class="campl-responsive-table">
+								<table summary="this is the table summary" class="campl-table-bordered campl-table-striped campl-table">
+									<caption>this is a sample caption</caption>
+									<thead>
+									<tr>
+										<th>Lorem ipsum dolor sit amet</th>
+										<th>consectetur adipisicing elit</th>
+										<th>sed do eiusmod tempor</th>
+										<th>incididunt ut labore</th>
+										<th>et dolore magna aliqua</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td>Ut enim ad minim veniam</td>
+										<td>quis nostrud exercitation ullamco</td>
+										<td>laboris nisi ut aliquip</td>
+										<td>ex ea commodo consequat</td>
+										<td>Duis aute irure dolor in reprehenderit</td>
+									</tr>
+									<tr>
+										<td>Ut enim ad minim veniam</td>
+										<td>quis nostrud exercitation ullamco</td>
+										<td>laboris nisi ut aliquip</td>
+										<td>ex ea commodo consequat</td>
+										<td>Duis aute irure dolor in reprehenderit</td>
+									</tr>
+									<tr>
+										<td>Ut enim ad minim veniam</td>
+										<td>quis nostrud exercitation ullamco</td>
+										<td>laboris nisi ut aliquip</td>
+										<td>ex ea commodo consequat</td>
+										<td>Duis aute irure dolor in reprehenderit</td>
+									</tr>
+									<tr>
+										<td>Ut enim ad minim veniam</td>
+										<td>quis nostrud exercitation ullamco</td>
+										<td>laboris nisi ut aliquip</td>
+										<td>ex ea commodo consequat</td>
+										<td>Duis aute irure dolor in reprehenderit</td>
+									</tr>
+									</tbody>
+								</table>
+
+							</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+						
+							<h2>Tabs</h2>
+						
+							  <ul id="navTabs" class="campl-nav campl-nav-tabs campl-unstyled-list">
+					              <li class="campl-active"><a href="#item-1" data-toggle="tab">Lorem ipsum</a></li>
+					              <li><a href="#item-2" data-toggle="tab">Adipisicing elit</a></li>
+					            </ul>
+
+							<h2>Pills</h2>
+						
+							<ul class="campl-nav campl-nav-pills" id="navPills">
+							  <li class="campl-active"><a href="#pill-1">Lorem ipsum dolor</a></li>
+							  <li><a href="#pill-2">Sed do eiusmod tempor</a></li>
+							  <li><a href="#pill-3">Incididunt ut labore</a></li>
+							  <li><a href="#pill-4">Dolore magna aliqua</a></li>
+							  <li><a href="#pill-5">Ut enim ad minim veniam</a></li>
+							  <li><a href="#pill-6">Quis nostrud exercitation ullamco</a></li>
+							  <li><a href="#pill-7">Duis aute irure dolor in reprehenderit</a></li>
+							  <li><a href="#pill-8">Excepteur sint occaecat cupidatat</a></li>
+							</ul>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+						
+							<h2>Teasers</h2>
+						
+								<div class="campl-horizontal-teaser campl-teaser clearfix"> 
+								<div class="campl-column6">
+									<div class="campl-content-container campl-horizontal-teaser-img">
+										<a href="#" class="campl-teaser-img-link"><img alt=""  src="../../images/content/image-placeholder.jpg" class="campl-scale-with-grid" /></a>
+									</div>
+								</div>
+								<div class="campl-column6">
+									<div class="campl-content-container campl-horizontal-teaser-txt">
+										<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<a href="#" class="campl-primary-cta">Read more</a>
+									</div>
+								</div>
+							</div>
+							<div class='divider'>
+								<hr /> 
+							</div>
+						
+						
+							<div class="campl-column6">
+								<div class="campl-content-container">
+									<div class="campl-vertical-teaser campl-teaser audio-teaser"> 
+										<div class="campl-content-container campl-vertical-teaser-img">
+											<a href="#" class="campl-teaser-img-link">
+												<span class="campl-audio-overlay campl-overlay ir"></span>
+												<img alt=""  src="../../images/content/image-placeholder.jpg" class="campl-scale-with-grid" />
+											</a>
+										</div>
+										<div class="campl-content-container campl-vertical-teaser-txt">
+											<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<a href="#1">Descriptive link CTA</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="campl-column6">
+								<div class="campl-content-container">
+									<div class="campl-vertical-teaser campl-teaser video-teaser"> 
+										<div class="campl-content-container campl-vertical-teaser-img">
+											<a href="#" class="campl-teaser-img-link">
+												<span class="campl-video-overlay campl-overlay ir"></span>
+												<img alt=""  src="../../images/content/image-placeholder.jpg" class="campl-scale-with-grid" />
+											</a>
+										</div>
+										<div class="campl-content-container campl-vertical-teaser-txt">
+											<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<a href="#2">Descriptive link CTA</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Form elements</h2>
+						
+							<form action="">
+								<fieldset>
+									<legend>Standard form elements</legend>
+									<div class="campl-control-group">
+								    	<label for="input">input</label>
+								    	<div class="campl-controls">
+								      		<input id="input" type="text" value="basic input" />
+								    	</div>
+								  	</div>
+
+									<div class="campl-control-group">
+								    	<label for="textarea">textarea</label>
+								    	<div class="campl-controls">
+								      		<textarea rows="3" id="textarea" cols=""></textarea>
+								    	</div>
+								  	</div>
+
+									<div class="campl-control-group">
+								    	<label for="select">select</label>
+								    	<div class="campl-controls">
+								      		<select id="select">
+									        <option>1</option>
+									        <option>2</option>
+									        <option>3</option>
+									        <option>4</option>
+									        <option>5</option>
+									      </select>
+								    	</div>
+								  	</div>
+
+								  	<div class="campl-control-group">
+									    <label class="control-label" for="optionsCheckboxList">Checkboxes</label>
+									    <div class="campl-controls">
+									      <label class="campl-checkbox">
+									        <input type="checkbox" name="optionsCheckboxList1" value="option1" />
+									        Option one 
+									      </label>
+									      <label class="campl-checkbox">
+									        <input type="checkbox" name="optionsCheckboxList2" value="option2" />
+									        Option two 
+									      </label>
+									      <label class="campl-checkbox">
+									        <input type="checkbox" name="optionsCheckboxList3" value="option3" />
+									        Option three 
+									      </label>
+									      </div>
+									  </div>
+
+									  <div class="campl-control-group">
+										    <label class="control-label" for="inlineCheckboxes">Inline checkboxes</label>
+										    <div class="campl-controls">
+										      <label class="campl-checkbox inline">
+										        <input type="checkbox" id="inlineCheckbox1" value="option1" /> 1
+										      </label>
+										      <label class="campl-checkbox inline">
+										        <input type="checkbox" id="inlineCheckbox2" value="option2" /> 2
+										      </label>
+										      <label class="campl-checkbox inline">
+										        <input type="checkbox" id="inlineCheckbox3" value="option3" /> 3
+										      </label>
+										    </div>
+										</div>
+
+
+										<div class="campl-control-group">
+									    	<label class="control-label">Radio buttons</label>
+									    	<div class="campl-controls">
+										      <label class="campl-radio">
+										        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"  />
+										        Option one
+										      </label>
+										      <label class="campl-radio">
+										        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+										        Option two 
+										      </label>
+										    </div>
+										</div>
+										<span class="campl-help-block">This is an example of guidance text to give supplementary information to the user about completion of the form</span>
+								  	<div class="campl-form-actions">
+										<button type="button" class="campl-btn">Button</button>
+										<button type="reset" class="campl-btn">Reset</button>
+										<button class="campl-btn">Cancel</button>
+									    <button type="submit" class="campl-btn campl-primary-cta">Submit</button>
+
+									 </div>
+
+								</fieldset>
+							</form>
+						</div>
+						<hr class="campl-teaser-divider" />
+						<div class="campl-content-container campl-vertical-padding clearfix">
+							<h2>Lists</h2>
+						
+								<ul>
+									<li>Unordered list</li>
+									<li>list item 2</li>
+									<li>list item 3</li>
+								</ul>
+								<h6>Nested list</h6>	
+								<ul>
+									<li>Unordered list</li>
+									<li>list item 2
+										<ul>
+											<li>Unordered list</li>
+											<li>list item 2
+												<ul>
+													<li>Unordered list</li>
+													<li>list item 2
+														<ul>
+															<li>Unordered list</li>
+															<li>list item 2</li>
+															<li>list item 3</li>
+														</ul>
+													</li>
+													<li>list item 3</li>
+												</ul>
+											</li>
+											<li>list item 3</li>
+										</ul>
+									</li>
+									<li>list item 3</li>
+								</ul>
+							</div>
+							<hr class="campl-teaser-divider" />
+							<div class="campl-content-container campl-vertical-padding clearfix">
+
+								<h2>Typography</h2>
+						
+								<h1>Heading 3</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h2>Heading 4</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h3>Heading 3</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h4>Heading 4</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h5>Heading 5</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h6>Heading 6</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+								<h3>Blockquote</h3>
+								<blockquote>
+									<p>'Tis better to have loved and lost then never to have loved at all</p>
+									<small>William Shakespeare</small>
+								</blockquote>
+
+								<h3>Horizontal rule</h3>
+								<hr />
+
+								<h3>Inline links</h3>
+								<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								<h3>Miscellaneous inline text treatment</h3>
+								<p>Lorem <strong>strong</strong> sit amet, <em>emphasis</em>, sed do eiusmod tempor <sub>sub text</sub> et dolore magna aliqua. <sup>super text</sup>, quis nostrud <abbr>abbreviation</abbr> ullamco </p>
+								<p>Lorem <small>small</small>, consectetur adipisicing elit, <dfn>definition</dfn> incididunt ut labore <ins>insert</ins>. Ut enim ad minim veniam, <mark>mark</mark> laboris nisi ut aliquip ex ea </p>
+								<h3>Address</h3>
+
+								<address>24 acacia avenue, birmingham, B1 4BX</address>
+							</div>
+					</div>
+				</div>
+				<div class="campl-column3 campl-secondary-content">
+					<div class="campl-content-container  ">
+						<div class="campl-heading-container">
+							<h2>Related Links</h2>
+						</div>
+						<ul class='campl-unstyled-list campl-related-links'>
+							<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#">Consectetur adipisicing elit</a></li>
+							<li><a href="#">Sed do eiusmod tempor incididunt extra long wrapping on to two line</a></li>
+							<li><a href="#">Labore et dolore magna aliqua</a></li>
+							<li><a href="#">Ut enim ad minim veniam</a></li>
+							<li><a href="#">Quis nostrud exercitation ullamco</a></li>
+						</ul>
+					</div>
+					<div class="campl-content-container">
+					<hr class='campl-teaser-divider' />
+						<div class="campl-vertical-teaser campl-teaser campl-promo-teaser"> 
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<p class='campl-teaser-title'><a href="#">Promo teaser with title above</a></p>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../../images/content/homepage-promo-placeholder.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt clearfix">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#4" class="campl-secondary-cta campl-float-right">Read more</a>
+							</div>
+						</div>	
+				
+					<hr class='campl-teaser-divider' />
+						<div class="campl-vertical-teaser campl-teaser campl-promo-teaser"> 
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<p class='campl-teaser-title'><a href="#">Promo teaser with title above</a></p>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../../images/content/homepage-promo-placeholder.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt clearfix">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#4" class="campl-secondary-cta campl-float-right">Read more</a>
+							</div>
+						</div>
+					<hr class='campl-teaser-divider' />
+					</div>
+				</div>
+				
+					<div class="campl-column12 campl-banner-content">
+						<div class="campl-content-container campl-list-container">
+							<ul class="campl-unstyled-list campl-desktop-list-layout">
+								<li><a href="date-01.html">A</a></li>
+								<li><a href="date-02.html">B</a></li>
+								<li><a href="">C</a></li>
+								<li><a href="">D</a></li>
+								<li><a href="">E</a></li>
+								<li><a href="">F</a></li>
+								<li><a href="">G</a></li>
+								<li><a href="">H</a></li>
+								<li><a href="">I</a></li>
+								<li><a href="">J</a></li>
+								<li><a href="">K</a></li>
+								<li><a href="">L</a></li>
+								<li><a href="">M</a></li>
+								<li><a href="">N</a></li>
+								<li><a href="">O</a></li>
+								<li><a href="">P</a></li>
+								<li><a href="">Q</a></li>
+								<li><a href="">R</a></li>
+								<li><a href="">S</a></li>
+								<li><a href="">T</a></li>
+								<li><a href="">U</a></li>
+								<li><a href="">V</a></li>
+								<li><a href="">W</a></li>
+								<li><a href="">X</a></li>
+								<li><a href="">Y</a></li>
+								<li><a href="">Z</a></li>
+							</ul>
+
+							<div class="campl-mobile-list-layout">
+								<label class="hidden" for="navigation-select">Select</label>
+								<select id="navigation-select"> 
+									<option value="">please select</option>
+									<option value="date-01.html">A</option>
+									<option value="date-02.html">B</option>
+									<option value="">C</option>
+									<option value="">D</option>
+									<option value="">E</option>
+									<option value="">F</option>
+									<option value="">G</option>
+									<option value="">H</option>
+									<option value="">I</option>
+									<option value="">J</option>
+									<option value="">K</option>
+									<option value="">L</option>
+									<option value="">M</option>
+									<option value="">N</option>
+									<option value="">O</option>
+									<option value="">P</option>
+									<option value="">Q</option>
+									<option value="">R</option>
+									<option value="">S</option>
+									<option value="">T</option>
+									<option value="">U</option>
+									<option value="">V</option>
+									<option value="">W</option>
+									<option value="">X</option>
+									<option value="">Y</option>
+									<option value="">Z</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					
+					<div class="campl-column12 campl-banner-content">
+						<div class="campl-content-container campl-search-container">
+							<label for="full-search" class="hidden">Search site content</label>
+							<div class="campl-search-input">
+
+								<input id="full-search" type="text" value="" />
+								<input type="image" class="campl-search-submit " src="../../images/interface/btn-search-inpage.png" />
+							</div>
+						</div>
+					</div>
+					
+
+				<div class="campl-column12 campl-partnership-branding">
+					<div class="campl-content-container campl-side-padding">
+						<div class="campl-content-container campl-logo-container campl-bottom-padding">
+							<p class="campl-branding-title">Spotlight sponsors</p>
+							<ul class="campl-unstyled-list campl-logo-list campl-horizontal-navigation clearfix" >
+								<li><img src="../../images/content/sponsors-01.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-02.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-03.png" alt=""  /></li>
+							</ul>
+						</div>
+						<div class="campl-content-container campl-logo-container campl-bottom-padding">
+							<p class="campl-branding-title">Partner sponsors</p>
+							<ul class="campl-unstyled-list campl-logo-list campl-horizontal-navigation clearfix">
+								<li><img src="../../images/content/sponsors-04.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-05.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-06.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-07.png" alt=""  /></li>
+							</ul>
+						</div>
+						<div class="campl-content-container campl-logo-container campl-bottom-padding">
+							<p class="campl-branding-title">Associate sponsors</p>
+							<ul class="campl-unstyled-list campl-logo-list campl-horizontal-navigation clearfix">
+								<li><img src="../../images/content/sponsors-08.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-09.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-10.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-11.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-12.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-13.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-14.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-15.png" alt=""  /></li>
+							</ul>
+						</div>
+						<div class="campl-content-container campl-logo-container campl-bottom-padding">
+							<p class="campl-branding-title">In kind support</p>
+							<ul class="campl-unstyled-list campl-logo-list campl-horizontal-navigation clearfix">
+								<li><img src="../../images/content/sponsors-16.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-17.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-18.png" alt=""  /></li>
+								<li><img src="../../images/content/sponsors-19.png" alt=""  /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			
+			</div>	
+		</div>
+		
+
+		
+		
+		<div class="campl-row campl-local-footer">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the Faculty</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Lorem ipsum dolor</a>
+							</li>
+							<li>
+								<a href="">Sit amet</a>
+							</li>
+							<li>
+								<a href="">Consectetur adipisicing elit</a>
+							</li>
+							<li>
+								<a href="">Sed do eiusmod</a>
+							</li>
+							<li>
+								<a href="">Tempor incididunt</a>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Research</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Ut labore et dolore</a>
+							</li>
+							<li>
+								<a href="">Ut enim ad minim veniam</a>
+							</li>
+							<li>
+								<a href="">Magna aliqua</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the University</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Quis nostrud exercitation</a>
+							</li>
+							<li>
+								<a href="">Ullamco laboris nisi</a>
+							</li>
+							<li>
+								<a href="">Ut aliquip ex ea commodo</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Libraries &amp; facilities</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">In reprehenderit in voluptate</a>
+							</li>
+							<li>
+								<a href="">Velit esse cillum dolore</a>
+							</li>
+							<li>
+								<a href="">Eu fugiat nulla pariatur</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Graduate</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Excepteur sint occaecat</a>
+							</li>
+							<li>
+								<a href="">Cupidatat non proident</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation last">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Subjects</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Sunt in culpa qui officia</a>
+							</li>
+							<li>
+								<a href="">Deserunt mollit anim</a>
+							</li>
+							<li>
+								<a href="">Id est laborum</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="campl-row campl-global-footer">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-footer-logo">
+						<img alt=""  src="../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+						<p>&#169; 2012 University of Cambridge, <br />
+							The old schools, Trinity Lane, <br />
+							Cambridge CB2 1TN, UK</p>
+							<ul class="campl-unstyled-list campl-global-footer-links">
+								<li>
+									<a href="">A-Z</a>
+								</li>
+								<li>
+									<a href="">Contact us</a>
+								</li>
+								<li>
+									<a href="">Privacy</a>
+								</li>
+								<li>
+									<a href="">Accessibility</a>
+								</li>
+								<li>
+									<a href="">Freedom of information</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+
+						<div class="link-list">
+							<h3><a href="">Study with us</a></h3> 
+							<ul class="campl-unstyled-list">
+								<li>
+									<a href="">Graduates</a>
+								</li>
+								<li>
+									<a href="">Undergraduates</a>
+								</li>
+								<li>
+									<a href="">International students</a>
+								</li>
+								<li>
+									<a href="">Visit us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the University</a></h3> 
+						<ul class="campl-unstyled-list campl-page-children">
+							<li>
+								<a href="">History</a>
+							</li>
+							<li>
+								<a href="">Maps</a>
+							</li>
+							<li>
+								<a href="">News &amp; events</a>
+							</li>
+							<li>
+								<a href="">Jobs</a>
+							</li>
+							<li>
+								<a href="">Business</a>
+							</li>
+							<li>
+								<a href="">Publications</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation last">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Our Research</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Lorem</a>
+							</li>
+							<li>
+								<a href="">Ipsum</a>
+							</li>
+							<li>
+								<a href="">Dolor</a>
+							</li>
+							<li>
+								<a href="">Sit</a>
+							</li>
+							<li>
+								<a href="">Amet</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="campl-row styleguide-notes">
+			<div class="campl-wrap clearfix">
+				<div class="campl-content-container">
+					<div class="campl-column12">
+						<div class="campl-content-container styleguide-container">
+							<h2>Styleguide notes</h2>
+							<hr />
+							<h3>Print sampler</h3>
+							
+							<hr />
+							<div class="campl-content-container">
+								<h4>Usage</h4>
+								<p>This page contains the majority of in page components and a basic 3 column structure to illustrate how 
+									the print stylesheet will affect each component in turn</p>
+								<h4>Interaction</h4>
+								<p>N/a</p>
+								<h4>Responsive behaviour</h4>
+								<p>N/a</p>
+								<hr />
+								<h4>CSS and media queries</h4>
+								<p>N/a</p>
+								<hr />
+								<h4>Use of Javascript</h4>
+								<p>N/a</p>
+								<hr />
+								<h4>Component variants</h4>
+								<p>N/a</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/datepicker_highlighted_events.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

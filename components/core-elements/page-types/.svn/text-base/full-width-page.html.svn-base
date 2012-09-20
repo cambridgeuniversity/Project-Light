@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../../stylesheets/styleguide.css" />
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	<div class="campl-row campl-global-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-global-navigation">
+				<p>global header</p>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-page-header">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<div class="campl-breadcrumb">breadcrumb</div>
+					<h1 class="campl-page-title">page title</h1>
+				</div>
+			</div>
+			<div class="campl-column12 campl-recessed-banner campl-banner-content">
+				<div class="campl-content-container">
+					<p>search box would go here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-content campl-recessed-content">
+		<div class="campl-wrap clearfix">
+			
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<p>page content would go below</p>
+				</div>
+			</div>
+			<div class="campl-column12 campl-banner-content">
+				<div class="campl-content-container">
+					<p>search box would go here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-local-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<p>local footer</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="campl-row campl-global-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<p>global footer</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Full width page</h3>
+						
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>This is a full width page for special content such as campaign pages, or extensive content that requires full-width listings.</p>
+							<hr />
+							<h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>Separate desktop and mobile views are created by using a 767px max-width media query to present a different structure.</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>N/a</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript"  src="../../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript"  src="../../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript"  src="../../../javascripts/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,688 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body class="campl-theme-2">
+	<a href="#primary-nav" class="campl-skipTo">skip to primary navigation</a>
+	<a href="#content" class="campl-skipTo">skip to content</a>
+
+	<div class="campl-row campl-global-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-header-container campl-column8" id="global-header-controls">
+				<a href="/" class="campl-main-logo">
+					<img alt=""  src="../../images/interface/main-logo-small.png" />
+				</a>
+
+				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix" id="primary-nav">
+					<li>
+						<a href="#study-with-us">Study with us</a>
+					</li>
+					<li>
+						<a href="#about-the-university">About the University</a>
+					</li>
+					<li>
+						<a href="" class="campl-no-drawer">Our research</a>
+					</li>
+				</ul>
+			</div>
+				
+			<div class="campl-column2">
+				<div class="campl-quicklinks">
+				</div>
+			</div>
+				
+			<div class="campl-column2">
+				
+				<div class="campl-site-search" id="site-search-btn">
+
+					<label for="header-search" class="hidden">Search site</label>
+					<div class="campl-search-input">
+
+						<input id="header-search" type="text" value="" placeholder="Search"/>
+						
+						<input type="image" class="campl-search-submit " src="../../images/interface/btn-search-header.png"/>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="campl-row campl-global-header campl-search-drawer">
+		<div class="campl-wrap clearfix">
+			<form class="campl-site-search-form" id="site-search-container" action="">
+				<div class="campl-search-form-wrapper clearfix">
+					<input type="text" class="text" placeholder="Search"/>
+					<input type="image" class="campl-search-submit" src="../../images/interface/btn-search.png" />
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-global-navigation-drawer">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column12 campl-home-link-container">
+				<a href="" >Home</a>
+			</div>
+		</div>
+		<div class="campl-wrap clearfix">		
+			<div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+				<div class="campl-global-navigation-outer clearfix" id="study-with-us">
+					<ul class="campl-unstyled-list campl-global-navigation-header-container ">
+						<li><a href="" >Study with us</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Undergraduate</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li>
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Graduate</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li>
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list last">
+							<li>
+								<a href="" >International students</a>
+							</li>
+							<li>
+								<a href="" >Lifelong learning</a>
+							</li>
+							<li>
+								<a href="" >Professional learning</a>
+							</li>
+							<li>
+								<a href="" >Courses in education</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="about-the-university">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >About the University</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Maps</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">History</a>
+								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list last">
+							<li>
+								<a href="" >News &amp; Events</a>
+							</li>
+							<li>
+								<a href="" >Jobs</a>
+							</li>
+							<li>
+								<a href="" >Giving to Cambridge</a>
+							</li>
+							<li>
+								<a href="" >Community outreach</a>
+							</li>
+							<li>
+								<a href="" >International cambridge</a>
+							</li>
+							<li class="last">
+								<a href="" >Publications</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="our-research">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >Our research</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+				<li>
+					<a href="">For staff &amp; students</a>
+				</li>
+				<li>
+					<a href="">For alumni</a>
+				</li>
+				<li>
+					<a href="">For business</a>
+				</li>
+				<li>
+					<a href="">For teachers</a>
+				</li>
+				<li>
+					<a href="">Colleges &amp; departments</a>
+				</li>
+				<li>
+					<a href="">Libraries &amp; facilities</a>
+				</li>
+				<li>
+					<a href="">Museums &amp; collections</a>
+				</li>
+				<li class="last">
+					<a href="">Email &amp; phone search</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-page-header">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<div class="campl-breadcrumb" id="breadcrumb">
+						<ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
+							<li class='first-child'>
+								<a href="#" class="campl-home ir">Home</a>
+							</li>
+							<li>
+								<a href="">Graduate Admissions</a>
+							</li>
+							<li>
+								<a href="">Prospective Graduate Students</a>
+							</li>
+							<li>
+								<a href="">Studying at Cambridge</a>
+							</li>
+							<li>
+								<p class="campl-current">Qualifications Directory</p>
+							</li>
+						</ul>
+
+					</div>
+					<p class="campl-mobile-parent"><a href=""><span class="campl-back-btn campl-menu-indicator"></span>Studying at Cambridge</a></p>
+					<p class="campl-page-title">Graduate Admissions</p>
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="campl-row campl-page-header">	
+		<div class="campl-wrap clearfix campl-local-navigation" id="local-nav">
+			<div class="campl-local-navigation-container">
+				<ul class="campl-unstyled-list">
+					<li><a href="#">About us</a></li>
+					<li><a href="#" class="campl-selected">Prospective Students</a>
+						<ul class="campl-unstyled-list local-dropdown-menu">
+							<li><a href="#">Step 1 - Why Cambridge</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">The City</a></li>
+									<li><a href="#">The University</a></li>
+									<li><a href="#">Benefits of Studying at Cambridge</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Step 2 - Studying at Cambridge</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li class="campl-active-page"><a href="#q">Qualifications Directory</a></li>
+									<li><a href="#">Modes of Study</a></li>
+									<li><a href="#">Fees and Costs</a></li>
+									<li><a href="#">Funding Your Studies</a></li>
+									<li><a href="#">Immigration</a></li>
+									<li><a href="#">Bringing your Family</a></li>
+									<li><a href="#">Accommodation</a></li>
+									<li><a href="#">The Colleges</a></li>
+									<li><a href="#">University Policy and Guidelines</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Step 3 - How to apply</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Supporting Documentation</a></li>
+									<li><a href="#">Continuation and Readmission</a></li>
+									<li><a href="#">Your Self-Service Account</a></li>
+									<li><a href="#">Application and Funding Deadlines</a></li>
+									<li><a href="#">Application Fees</a></li>
+									<li><a href="#">College Choice</a></li>
+									<li><a href="#">Disabled Applicants</a></li>
+									<li><a href="#">Entrance Requirements</a></li>
+									<li><a href="#">Part-Time Study and Research</a></li>
+									<li><a href="#">Privacy - Your Personal Data</a></li>
+									<li><a href="#">Research Topic and Resources</a></li>
+									<li><a href="#">Staff Applicants</a></li>
+									<li><a href="#">Starting Dates</a></li>
+									<li><a href="#">Applying Paper</a></li>
+								</ul>	
+							</li>
+							<li><a href="#">Step 4 - I've applied - What Next?</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Status Of Your Application</a></li>
+									<li><a href="#">Conditions of Admission</a></li>
+									<li><a href="#">If Your Circumstances Change</a></li>
+									<li><a href="#">Confirmation of Admission</a></li>
+									<li><a href="#">Continuation</a></li>
+									<li><a href="#">Immigration</a></li>
+									<li><a href="#">Admissions Complaints</a></li>
+								</ul>							
+							</li>
+							<li><a href="#">Frequently asked questions</a>
+								<ul class="campl-unstyled-list local-dropdown-menu">
+									<li><a href="#">Prospective Graduate Students</a></li>
+									<li><a href="#">Referees</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Site map</a></li>
+						</ul> 
+					</li>
+				</ul>	
+			</div>
+		</div>
+
+
+
+		<div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
+			<div class="campl-column3 campl-spacing-column">
+				&nbsp;
+			</div>
+			<div class="campl-column9">
+				<div class="campl-content-container">
+					<h1 class="campl-sub-title">Qualifications Directory</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="campl-row campl-content campl-recessed-content">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3">
+					<div class="campl-tertiary-navigation">
+						<div class="campl-tertiary-navigation-structure">
+							<ul class="campl-unstyled-list campl-vertical-breadcrumb">
+								<li><a href="local-navigation-01.html">Faculty of Modern &amp; Medieval Languages <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+								<li><a href="local-navigation-02.html">Departments <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+								<li><a href="local-navigation-03.html">French <span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+							</ul>	
+							<ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation">	
+								<li class="campl-selected"><a href="local-navigation-04.html">French in the MML Tripos</a>
+									<ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
+										<li class="campl-selected"><a href="local-navigation-05.html">Year 1</a></li>
+										<li><a href="#3">Year 2</a></li>
+										<li><a href="#2">Year 3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column6  campl-main-content" id="content">
+					<img src="../../images/content/recessed-image-placeholder.jpg" alt="" class="campl-scale-with-grid" />
+					<div class="campl-content-container">
+						<h2>Heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<blockquote class="clearfix">
+							<p>'Tis better to have loved and lost then never to have loved at all. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="campl-quote-mark"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<cite>William Shakespeare</cite>
+						</blockquote>
+						<table summary="" class="campl-table-bordered campl-table-striped campl-table  campl-vertical-stacking-table">
+							<thead>
+							<tr>
+								<th>
+									<strong>Month</strong>
+								</th>
+								<th>
+									<strong>Deadline for Department for contractual paperwork to be with RA team</strong>
+								</th>
+								<th>
+									<strong>Deadline for Department for Temp Input (i.e. overtime/hrs claims) to Payroll</strong>
+								</th>
+								<th>
+									<strong>Pay Date</strong>
+								</th>
+							</tr>
+							</thead>
+								<tbody>
+								<tr>
+									<td>January</td>
+									<td>5th</td>
+									<td>12th</td>
+									<td>26th</td>
+								</tr>
+								<tr>
+									<td>February</td>
+									<td>3rd</td>
+									<td>10th</td>
+									<td>24th</td>
+								</tr>
+								<tr>
+									<td>March</td>
+									<td>5th</td>
+									<td>12th</td>
+									<td>26th</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="campl-column3 campl-secondary-content">
+					<div class="campl-content-container">
+						<div class="campl-heading-container">
+							<h2>Related Links</h2>
+						</div>
+						<ul class='campl-unstyled-list campl-related-links'>
+							<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#">Consectetur adipisicing elit</a></li>
+							<li><a href="#">Sed do eiusmod tempor incididunt extra long wrapping on to two line</a></li>
+							<li><a href="#">Labore et dolore magna aliqua</a></li>
+							<li><a href="#">Ut enim ad minim veniam</a></li>
+							<li><a href="#">Quis nostrud exercitation ullamco</a></li>
+						</ul>
+					</div>
+					<div class="campl-content-container">
+							<div class="campl-vertical-teaser campl-teaser campl-promo-teaser"> 
+								<div class="campl-content-container campl-vertical-teaser-txt">
+									<p class='campl-teaser-title'><a href="#">Promo teaser with title above</a></p>
+								</div>
+								<div class="campl-content-container campl-vertical-teaser-img">
+									<a href="#" class="campl-teaser-img-link"><img alt=""  src="../../images/content/homepage-promo-placeholder.png" class="campl-scale-with-grid" /></a>
+								</div>
+								<div class="campl-content-container campl-vertical-teaser-txt clearfix">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<a href="#4" class="campl-secondary-cta campl-float-right">Read more</a>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="campl-row campl-local-footer">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the Faculty</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Lorem ipsum dolor</a>
+							</li>
+							<li>
+								<a href="">Sit amet</a>
+							</li>
+							<li>
+								<a href="">Consectetur adipisicing elit</a>
+							</li>
+							<li>
+								<a href="">Sed do eiusmod</a>
+							</li>
+							<li>
+								<a href="">Tempor incididunt</a>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Research</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Ut labore et dolore</a>
+							</li>
+							<li>
+								<a href="">Ut enim ad minim veniam</a>
+							</li>
+							<li>
+								<a href="">Magna aliqua</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the University</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Quis nostrud exercitation</a>
+							</li>
+							<li>
+								<a href="">Ullamco laboris nisi</a>
+							</li>
+							<li>
+								<a href="">Ut aliquip ex ea commodo</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Libraries &amp; facilities</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">In reprehenderit in voluptate</a>
+							</li>
+							<li>
+								<a href="">Velit esse cillum dolore</a>
+							</li>
+							<li>
+								<a href="">Eu fugiat nulla pariatur</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Graduate</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Excepteur sint occaecat</a>
+							</li>
+							<li>
+								<a href="">Cupidatat non proident</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation last">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Subjects</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Sunt in culpa qui officia</a>
+							</li>
+							<li>
+								<a href="">Deserunt mollit anim</a>
+							</li>
+							<li>
+								<a href="">Id est laborum</a>
+							</li>
+							<li>
+								<a href="">Duis aute irure dolor</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="campl-row campl-global-footer">
+			<div class="campl-wrap clearfix">
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-footer-logo">
+						<img alt=""  src="../../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+						<p>&#169; 2012 University of Cambridge, <br />
+							The old schools, Trinity Lane, <br />
+							Cambridge CB2 1TN, UK</p>
+							<ul class="campl-unstyled-list campl-global-footer-links">
+								<li>
+									<a href="">A-Z</a>
+								</li>
+								<li>
+									<a href="">Contact us</a>
+								</li>
+								<li>
+									<a href="">Privacy</a>
+								</li>
+								<li>
+									<a href="">Accessibility</a>
+								</li>
+								<li>
+									<a href="">Freedom of information</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+
+						<div class="link-list">
+							<h3><a href="">Study with us</a></h3> 
+							<ul class="campl-unstyled-list">
+								<li>
+									<a href="">Graduates</a>
+								</li>
+								<li>
+									<a href="">Undergraduates</a>
+								</li>
+								<li>
+									<a href="">International students</a>
+								</li>
+								<li>
+									<a href="">Visit us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">About the University</a></h3> 
+						<ul class="campl-unstyled-list campl-page-children">
+							<li>
+								<a href="">History</a>
+							</li>
+							<li>
+								<a href="">Maps</a>
+							</li>
+							<li>
+								<a href="">News &amp; events</a>
+							</li>
+							<li>
+								<a href="">Jobs</a>
+							</li>
+							<li>
+								<a href="">Business</a>
+							</li>
+							<li>
+								<a href="">Publications</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="campl-column3 campl-footer-navigation last">
+					<div class="campl-content-container campl-navigation-list">
+						<h3><a href="">Our Research</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Lorem</a>
+							</li>
+							<li>
+								<a href="">Ipsum</a>
+							</li>
+							<li>
+								<a href="">Dolor</a>
+							</li>
+							<li>
+								<a href="">Sit</a>
+							</li>
+							<li>
+								<a href="">Amet</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

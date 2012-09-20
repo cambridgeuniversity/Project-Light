@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body class="campl-theme-1">
+
+<div class="campl-row campl-page-header">
+	<div class="campl-wrap clearfix">
+		<div class="campl-column12">
+			<div class="campl-homepage-carousel campl-carousel clearfix campl-banner" id="carousel">
+				<div class="campl-carousel-container">
+					<ul class="campl-unstyled-list campl-slides">
+						<li class="campl-slide">
+							<div class="campl-column8 image-container">
+								<a href="">
+									<img alt=""  src="../../images/content/carousel-1.png" class="campl-scale-with-grid" />
+								</a>
+							</div>
+							<div class="campl-column4 campl-carousel-content">
+								<div class="campl-content-container">
+									<p>Lorem ipsum dolor sit amet</p>
+								</div>
+							</div>
+							<div class="campl-slide-caption">
+								<a href=""><span class="campl-slide-caption-txt">Consecration debated in chapel. Lorem ipsum dolor sit amet.</span></a>
+							</div>
+						</li>
+						<li class="campl-slide">
+							<div class="campl-column8 image-container">
+								<a href="">
+									<img alt=""  src="../../images/content/carousel-2.png" class="campl-scale-with-grid" />
+								</a>
+							</div>
+							<div class="campl-column4 campl-carousel-content">
+								<div class="campl-content-container">
+									<p>Sed do eiusmod tempor incididunt</p>
+								</div>
+							</div>
+							<div class="campl-slide-caption">
+								<a href=""><span class="campl-slide-caption-txt">Fine art exhibition showing in Needham college</span></a>
+							</div>
+						</li>
+						<li class="campl-slide">
+							<div class="campl-column8 image-container">
+								<a href="">
+									<img alt=""  src="../../images/content/carousel-3.png" class="campl-scale-with-grid" />
+								</a>
+							</div>
+							<div class="campl-column4 campl-carousel-content">
+								<div class="campl-content-container">
+									<p>Ut enim ad minim veniam</p>
+								</div>
+							</div>
+							<div class="campl-slide-caption">
+								<a href=""><span class="campl-slide-caption-txt">Icelandic cairn structure found in east anglia</span></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Homepage carousel</h3>
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>The homepage carousel is unique to the University homepage. It is used to promote key messages.</p>
+							<p>As a guideline, the copy in the right-hand and bottom panels should be kept to a handful of short
+							 words to avoid wrapping issues at smaller screen widths.</p>
+							<hr />
+							<h4>Interaction</h4>
+							<p>Both the image and the strapline are clickable. By default, the carousel should cycle through the panels every three seconds.
+								If the user interacts with the carousel, the auto-cycle is disabled until the page is reloaded. The left and right arrows 
+								cycle between panels.
+							</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							
+							<p>Separate desktop and mobile views are created by using a 767px max-width media query to present a different structure.</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>The caption and carousel text are both truncated using <a href="http://modernizr.com/">Modernizr</a> to detect media query detection of 1024px max-width to
+								prevent them wrapping and overlapping other elements.</p>
+							<p>The carousel Javascript must be included in the page. The carousel Javascript dynamically appends navigation buttons
+								and numbered indicator to describe the current slide and total slides available.</p>
+							<p>The carousel is set to autoplay using a Javascript timeout.</p>
+							<p>Javascript is also used to calculate the height of the carousel and create full height buttons to increase the hit area
+								for mobile users.</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>N/a</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

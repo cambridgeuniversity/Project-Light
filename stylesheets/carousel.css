@@ -1,0 +1,40 @@
+/* Carousel */
+.campl-carousel{background:#fff;text-align:center;position:relative;}
+.campl-carousel .campl-carousel-container{position:relative;overflow:hidden;}
+.campl-carousel .campl-slides{left:0;margin:0;overflow:hidden;padding:0;position:relative;top:0;}
+
+.campl-slides, .campl-slide {padding:0;margin:0}
+.campl-carousel li{position:relative;float:left;}
+.campl-carousel a{overflow:hidden;}
+
+.campl-carousel-controls{position:absolute;bottom:0;right:0}
+.campl-carousel-controls li{width:50px;height:50px;margin-left:1px;}
+.campl-carousel-control-btn{width:50px;height:50px;display:block;position:relative;}
+.campl-carousel-control-btn .campl-arrow-span{width:25px;height:25px;background-position:0 0;background-repeat:no-repeat;display:block;position:absolute;left:50%;margin-left:-12.5px;top:50%;margin-top:-12.5px }
+
+.campl-carousel-controls .campl-next .campl-arrow-span {background-image:url(../images/interface/btn-carousel-next.png)}
+.campl-carousel-controls .campl-previous .campl-arrow-span{background-image:url(../images/interface/btn-carousel-prev.png)}
+
+.campl-slide{position:relative}
+.campl-slide-caption{background:url(../images/interface/bg-carousel-caption.png) repeat 0 0 ;position:absolute;bottom:0;right:102px;color:#fff;padding:12px 16px 13px;left:20px;text-align:left}
+
+.campl-slide-caption-txt{margin-right:40px;}
+.campl-carousel-pagination{position:absolute;right:16px;bottom:16px}
+
+
+/* anything smaller than tablet portrait ie. mobile devices */
+@media (max-width: 767px) {
+	
+	.campl-slide-caption{opacity:1;position:static;}
+
+	.campl-carousel{overflow:hidden;background:#000}
+	.campl-carousel-controls{position:absolute;top:0;bottom:auto;left:0;right:auto;width:100%}
+	.campl-carousel-controls li{margin:0;width:50px;float:none;height:auto;position:absolute;top:0;}
+	.campl-slide-caption{background:#000}
+	.campl-carousel-control-btn{overflow:auto;width:auto;opacity:0.8}
+	
+	.campl-carousel-content{text-align:left}
+	
+	.campl-next-li{right:0;left:auto;}
+
+}

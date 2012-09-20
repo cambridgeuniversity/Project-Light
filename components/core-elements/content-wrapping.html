@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	
+
+		
+		
+		<div class="campl-row styleguide-notes">
+			<div class="campl-wrap clearfix">
+				<div class="campl-content-container">
+					<div class="campl-column12">
+						<div class="campl-content-container styleguide-container">
+							<h2>Styleguide notes</h2>
+							<hr />
+							<h3>Content wrapping</h3>
+							<hr />
+							<div class="campl-content-container">
+								<h4>Usage</h4>	
+								<p>The desktop view grid structure is designed to create a horizontal layout using a 12 column grid.</p>
+								<div class="center-img">
+									<img src="../../images/styleguide/wrapping1.png" class="campl-scale-with-grid"/>
+								</div>
+								<p>For mobile users the columns are stacked vertically in order, reading left to right, so more prominent content
+									appears at the top of the page. A navigation menu is placed off screen. </p>
+									<div class="center-img">
+										<img src="../../images/styleguide/wrapping2.png" class="campl-scale-with-grid"/>
+									</div>
+								<h4>Interaction</h4>
+								<p>Changing the width of the browser should change the width of the columns. If the width of the browser is less than 767 pixels
+									then the mobile view should be displayed instead and all columns will be displayed in a single column vertical structure.</p>
+								<hr />
+								<h4>CSS and media queries</h4>
+								<p>A media query is set for min-width 1200px which sets a fixed width to the site to prevent text columns becoming too wide and therefore illegible.</p>
+								<p>For any screen resolution smaller than 1199px the content is set to stretch to fill the width of the screen to maximise width available. </p>
+								
+								<p>At less than 767px media queries are used to remove the float off grid columns and set the percentage width of every column class selector to 100%
+									so they stack vertically.</p>
+								<hr />
+								<h4>Use of Javascript</h4>
+								<p>The <a href="http://modernizr.com/">Modernizr library</a> has been included to allow feature detection for media query support.</p>
+								<p>Browsers that do not support Media queries are given a fixed width by setting a class of 'campl-fixed-container' on elements
+									declared with 'campl-wrap'. </p>
+									
+								<p>Javascript is used to create the effect of equal height columns in the main content areas, by measuring the deepest column and setting
+									a height as an inline style. This function is repeated when the browser triggers a resize event so the height of the columns will
+									change depending on the width of the page. Because the equal height columns functionality is unnecessary for mobile resolutions
+									Modernizr is used to detect page width via media query and remove the inline height attribute being set.
+									Users without Javascript will see the columns as the original height.</p>	
+									
+								<p>	For ease of development we have defined two browsing modes: desktop and mobile. We have defined Mobile as anything less than than 767px.
+									Effectively anything smaller than ipad portrait is considered a mobile device. Modernizr's media query detection is also used to set a namespaced variable
+									 that allows several Javascript functions to detect whether the site is currently being browsed on a mobile resolution. </p>
+								<hr />
+								<h4>Component variants</h4>
+								<p>N/a</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+/* navigation list */
+.campl-list-container{text-align:center}
+.campl-mobile-list-layout{display:none}
+.campl-desktop-list-layout{padding-bottom:10px}
+.campl-desktop-list-layout li{background:url(../images/interface/bg-navigation-divider.png) center right no-repeat ;padding:0 14px 0 5px;display:inline-block; }
+.lt-ie8 .campl-desktop-list-layout li{padding:0 10px 0 5px;display:inline}
+.campl-desktop-list-layout li:last-child{background:none}
+
+.lt-ie8 .campl-desktop-list-layout li{padding:0 4px 0 4px}
+.lt-ie8 .campl-desktop-list-layout li a{padding:0 8px 0 0;top:2px}
+.lt-ie8 .campl-desktop-list-layout a .campl-list-indicator{bottom:-28px;margin-left:-26px}
+
+.campl-desktop-list-layout a{position:relative;}
+.campl-desktop-list-layout a .campl-list-indicator{display:none;height:21px;width:41px;background:url(../images/interface/bg_list_indicator.png) 0 0 no-repeat;position:absolute;bottom:-35px;left:50%;margin-left:-22px}
+.campl-desktop-list-layout a:focus .campl-list-indicator, .campl-desktop-list-layout a:hover .campl-list-indicator, .campl-desktop-list-layout .campl-selected .campl-list-indicator {display:block}
+
+/* Section list */
+.campl-section-list-heading{display:block;border-right:1px solid #e4e4e4;margin-bottom:0}
+.campl-section-list-children{border-right:1px solid #e4e4e4;margin-bottom:0}
+.campl-section-list{margin-bottom:0}
+.campl-section-list li{padding: 5px 0}
+.campl-section-list-children li{border-bottom:1px solid #e4e4e4;font-weight:bold}
+.campl-section-list-children li li, .campl-section-list-children li:last-child{border:0;font-weight:normal}
+.lt-ie9 .campl-section-list-children li.campl-last{border:0;}
+.lt-ie9 .campl-section-list-children li li{font-weight:normal}
+
+/* standard desktop screens */
+@media only screen and (max-width: 1280px){
+	.campl-desktop-list-layout li{padding:0 11px 0 1px;}
+}
+
+/* anything smaller than tablet portrait ie. mobile devices */
+@media (max-width: 767px) {
+
+	.campl-mobile-list-layout{display:block}
+	.campl-desktop-list-layout{display:none}
+	
+	.campl-section-list li li{padding: 0 0 10px}
+	.campl-section-list li li li{padding: 5px 0 5px}
+
+}

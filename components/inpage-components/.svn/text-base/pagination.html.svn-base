@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			
+			<div class="campl-column3">
+				<p>&nbsp;</p>
+			</div>
+			<div class="campl-column6">
+				<div class="campl-content-container">
+					<div class="campl-paging-container clearfix">
+						<h2 class="campl-current-date">25th September 2012</h2>
+						<ul class="campl-unstyled-list clearfix campl-paging" >
+							<li class="campl-previous-li">
+								<a class="ir campl-paging-btn campl-previous" href="#" style="">
+									<span class="campl-arrow-span"></span>
+									Older
+								</a>
+							</li>
+
+							<li class="campl-next-li">
+								<a class="ir campl-paging-btn campl-next" href="#" style="">
+									<span class="campl-arrow-span"></span>
+									Newer
+								</a>
+							</li>
+						</ul>
+					</div>
+					
+					
+					
+					 <div class="campl-pagination campl-pagination-centered">
+				        <ul>
+				          <li class="campl-previous-li"><a href="#" class="ir campl-pagination-btn campl-previous"><span class="campl-arrow-span"></span>previous</a></li>
+				          <li class="campl-active"><a href="#">1</a></li>
+				          <li><a href="#">2</a></li>
+				          <li><a href="#">3</a></li>
+				          <li><a href="#">4</a></li>
+				          <li class="campl-next-li"><a href="#" class="ir campl-pagination-btn campl-next"><span class="campl-arrow-span"></span>next</a></li>
+				        </ul>
+				      </div>
+				
+					<div class="campl-pagination campl-pagination-centered">
+				        <ul>
+				          <li class="campl-active"><a href="#">1</a></li>
+				          <li><a href="#">2</a></li>
+				          <li><a href="#">3</a></li>
+				          <li><a href="#">4</a></li>
+				          <li class="campl-next-li"><a href="#" class="ir campl-pagination-btn campl-next"><span class="campl-arrow-span"></span>next</a></li>
+				        </ul>
+				      </div>
+				
+				
+					<div class="campl-pagination campl-pagination-centered">
+				        <ul>
+				          <li class="campl-previous-li"><a href="#" class="ir campl-pagination-btn campl-previous"><span class="campl-arrow-span"></span>previous</a></li>
+				          <li class="campl-active"><a href="#">1</a></li>
+				          <li><a href="#">2</a></li>
+				          <li><a href="#">3</a></li>
+				          <li><a href="#">4</a></li>
+				      
+				        </ul>
+				      </div>
+				
+					<div class="campl-pagination campl-pagination-centered">
+				        <ul>
+				          <li class="campl-previous-li"><a href="#" class="ir campl-pagination-btn campl-previous"><span class="campl-arrow-span"></span>previous</a></li>
+				          <li><a href="#">1</a></li>
+				          <li class="campl-active"><a href="#">2</a></li>
+				          <li><span class="campl-elipsis">...</span></li>
+				          <li><a href="#">21</a></li>
+				          <li class="campl-next-li"><a href="#" class="ir campl-pagination-btn campl-next"><span class="campl-arrow-span"></span>next</a></li>
+				        </ul>
+				      </div>
+				
+				
+				</div>
+			</div>
+			<div class="campl-column3 campl-secondary-content">
+				&nbsp;
+			</div>
+		</div>	
+	</div>
+
+
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Paging and pagination</h3>
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>Pagination is used to navigate between pages of a large listing, such as search results. There are two component options.</p>
+
+							<h5>Binary pagination</h5>
+							<p>Use this option when the user does not need an indication of how many pages exist in the content set they are 
+								viewing; for example, if they’re browsing through articles of interest.</p>
+
+							<img src="../../images/styleguide/binary.png" class="campl-scale-with-grid"/>
+
+							<h5>Multi-page pagination</h5>
+							<p>Use this option when the user needs an indication of how many pages exist in the content set they are browsing, 
+								for example a chronological events list. It provides a way for the users to jump to the beginning or end.</p>
+
+							<p>The pagination always displays the current page, first page and last page in the list, with ellipses in between to 
+								denote additional pages as required.</p>
+								<img src="../../images/styleguide/pagination1.png" class="campl-scale-with-grid"/>
+						
+
+							
+							<hr />
+							<h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>A media query of max-width 1024px is used to increase the font sizes and button sizes 
+								to ensure there is a greater available hit state on a touch screen device.</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>If the user is on the first/last page of the list, the back/forward buttons do not display as appropriate.</p>
+							<img src="../../images/styleguide/pagination2.png" class="campl-scale-with-grid"/>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

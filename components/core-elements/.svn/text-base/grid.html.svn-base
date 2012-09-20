@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	
+
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-content-container">
+				<h1>Grid columns</h1>
+				<div class="campl-column12">
+					<div class="campl-content-container grid-border">
+						<p>12 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column11">
+					<div class="campl-content-container grid-border">
+						<p>11 columns</p>
+					</div>
+				</div>
+				<div class="campl-column1">
+					<div class="campl-content-container grid-border">
+						<p>1 column</p>
+					</div>
+				</div>
+	
+				<div class="campl-column10">
+					<div class="campl-content-container grid-border">
+						<p>10 columns</p>
+					</div>
+				</div>
+				<div class="campl-column2">
+					<div class="campl-content-container grid-border">
+						<p>2 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column9">
+					<div class="campl-content-container grid-border">
+						<p>9 columns</p>
+					</div>
+				</div>
+				<div class="campl-column3">
+					<div class="campl-content-container grid-border">
+						<p>3 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column8">
+					<div class="campl-content-container grid-border">
+						<p>8 columns</p>
+					</div>
+				</div>
+				<div class="campl-column4">
+					<div class="campl-content-container grid-border">
+						<p>4 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column7">
+					<div class="campl-content-container grid-border">
+						<p>7 columns</p>
+					</div>
+				</div>
+				<div class="campl-column5">
+					<div class="campl-content-container grid-border">
+						<p>5 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column6">
+					<div class="campl-content-container grid-border">
+						<p>6 columns</p>
+					</div>
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container grid-border">
+						<p>6 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column5">
+					<div class="campl-content-container grid-border">
+						<p>5 columns</p>
+					</div>
+				</div>
+				<div class="campl-column7">
+					<div class="campl-content-container grid-border">
+						<p>7 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column4">
+					<div class="campl-content-container grid-border">
+						<p>4 columns</p>
+					</div>
+				</div>
+				<div class="campl-column8">
+					<div class="campl-content-container grid-border">
+						<p>8 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column3">
+					<div class="campl-content-container grid-border">
+						<p>3 columns</p>
+					</div>
+				</div>
+				<div class="campl-column9">
+					<div class="campl-content-container grid-border">
+						<p>9 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column2">
+					<div class="campl-content-container grid-border">
+						<p>10 columns</p>
+					</div>
+				</div>
+				<div class="campl-column10">
+					<div class="campl-content-container grid-border">
+						<p>2 columns</p>
+					</div>
+				</div>
+	
+				<div class="campl-column1">
+					<div class="campl-content-container grid-border">
+						<p>1 column</p>
+					</div>
+				</div>
+				<div class="campl-column11">
+					<div class="campl-content-container grid-border">
+						<p>11 columns</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<h2>Nested columns</h2>
+				<div class="campl-column12">
+					<div class="campl-content-container grid-border clearfix">
+					
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						<div class="campl-column1">
+							<div class="campl-content-container grid-border">
+								<p>1 column</p>
+							</div>
+						</div>
+						
+							<div class="campl-column6">
+								<div class="campl-content-container grid-border">
+									<p>6 columns</p>
+								</div>
+							</div>
+							<div class="campl-column6">
+								<div class="campl-content-container grid-border clearfix">
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+									<div class="campl-column1">
+										<div class="campl-content-container grid-border">
+											<p>1 col</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-content-container">
+					<h2>Content containers</h2>
+				
+						<div class="campl-column3">
+							<div class="campl-content-container grid-border campl-no-top-padding">
+								<div class="campl-content-container grid-border">
+									<p>No top padding</p>
+								</div>
+							</div>
+						</div>
+						<div class="campl-column3">
+							<div class="campl-content-container grid-border campl-top-padding">
+								<div class="campl-content-container grid-border">
+									<p>top padding only</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="campl-column3">
+							<div class="campl-content-container grid-border campl-bottom-padding">
+								<div class="campl-content-container grid-border">
+									<p>bottom padding</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="campl-column3">
+								<div class="campl-content-container grid-border campl-side-padding">
+									<div class="campl-content-container grid-border">
+									<p>side padding</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+			<div class="campl-column12">
+				<div class="campl-content-container">	
+					<div class="campl-column3">
+						<div class="campl-content-container grid-border campl-vertical-padding">
+							<div class="campl-content-container grid-border">
+								<p>vertical padding</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="campl-column3">
+						<div class="campl-content-container grid-border campl-right-padding">
+							<div class="campl-content-container grid-border">
+								<p>right padding</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="campl-column3">
+						<div class="campl-content-container grid-border campl-left-padding">
+							<div class="campl-content-container grid-border">
+								<p>left padding</p>
+							</div>
+						</div>
+					</div>
+					<div class="campl-column3">
+						<div class="campl-content-container grid-border campl-no-padding">
+							<div class="campl-content-container grid-border">
+								<p>no padding</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Fluid grid system</h3>
+						
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>The site works on a 12 column fluid grid system illustrated above. Column widths are derived as a percentage of the containing div.</p>
+							<p>When nesting columns you will need to ensure the container is always divided into a further 12 columns.</p>
+							<hr />
+							<h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>Separate desktop and mobile views are created by using a 767px max-width media query to present a different structure.</p>
+							<p>Grid columns will be collapsed from a floating horizontal structure to a vertical stacked structure.</p>
+							<p>Different widths are set for users with IE7 to prevent problems with pixel rounding on percentage widths causing the nested columns
+								to break their parent container.</p>
+							<p>Padding for content areas is controlled by a content container inside each grid column. This is to separate width styles from border and padding styles
+								and to prevent issues with the box model. Decorative styles are also set on internal structural containers to create a re-usable component based
+								CSS structure. </p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>N/a</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+
+</body>
+</html>

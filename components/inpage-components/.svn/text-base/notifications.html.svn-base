@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	<div class="campl-row campl-content ">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column3">
+				<p>&nbsp;</p>
+			</div>
+			<div class="campl-column6">
+				<div class="campl-notifications-panel campl-success-panel campl-notifications-container clearfix">
+					<div class="campl-column4">
+						<p class="campl-notifications-icon campl-success-icon">Success:</p>
+					</div>
+					<div class="campl-column8">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="campl-notifications-panel campl-warning-panel campl-notifications-container clearfix">
+					<div class="campl-column4">
+						<p class="campl-notifications-icon campl-warning-icon">Warning:</p>
+					</div>
+					<div class="campl-column8">
+						<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="campl-notifications-panel campl-alert-panel campl-notifications-container clearfix">
+					<div class="campl-column4">
+						<p class="campl-notifications-icon campl-alert-icon">Alert:</p>
+					</div>
+					<div class="campl-column8">
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+					</div>
+				</div>
+				<div class="campl-notifications-panel campl-information-panel campl-notifications-container clearfix">
+					<div class="campl-column4">
+						<p class="campl-notifications-icon campl-information-icon">Information:</p>
+					</div>
+					<div class="campl-column8">
+						<p>Laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			</div>
+			<div class="campl-column3 campl-secondary-content">
+
+				&nbsp;
+			</div>
+		</div>	
+	</div>
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Notifications</h3>
+						
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>Notifications appear as contextual messages within pages. Which notification is most 
+								appropriate will depend on the context of use, but as a general guideline:</p>
+							<p>A <strong>Success</strong> notification confirms that an action the user has just taken (eg completion of a form) was successful.</p>
+							<p>A <strong>Warning</strong> requires your action; if you ignore it, there are likely to be serious consequences.</p>
+							<p>An <strong>Alert</strong> is similar to a warning, but less critical: it indicates something that you should be aware of (and possibly act on); 
+							if you ignore it, there are likely to be fairly serious consequences. </p>
+							<p>An <strong>Information</strong> notification is 'for your information'. It may be of interest but there will be no significant negative consequence 
+							if you ignore it.</p>
+														<p>Multiple notification components can be added to a page. Multiple paragraphs of information can be added to one panel.</p>
+							<hr />
+							<h4>Interaction</h4>
+							<p>Clicking the cross closes a notification. Whether a notification reappears on page load should be determined to suit each situation.</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>Javascript is used to dynamically append a close button which removes the DOM element from the page.</p>
+							<p>Users without Javascript will not be able to remove notifications from the page.</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>There are four variants of notification: Success, Warning, Alert, and Information.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

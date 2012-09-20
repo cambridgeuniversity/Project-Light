@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../stylesheets/styleguide.css" />
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body>
+	<div class="campl-row campl-global-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column9" id="global-header-controls">
+				<a href="/project-light" class="campl-main-logo">
+					<img alt=""  src="../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+				</a>
+				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation">
+					<li>
+						<a class="campl-no-drawer" href="../components/core-elements/index.html">Core elements</a>
+					</li>
+					<li>
+						<a class="campl-no-drawer" href="../components/inpage-components/index.html">In-page components</a>
+					</li>
+					<li>
+						<a class="campl-no-drawer" href="../template-variants/index.html">Page templates</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-global-navigation-drawer">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column12">
+				<ul class="campl-unstyled-list campl-global-navigation-container">
+					<li><a href="/project-light">Home</a></li>
+					<li><a href="../components/core-elements/index.html" >Core elements</a></li>
+					<li><a href="../components/inpage-components/index.html" >In-page components</a></li>
+					<li><a href="../template-variants/index.html" >Page templates</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Page templates</h2>
+						<hr />
+						<p>Here you can find full templates for common page types such as section pages, subsection/article pages and listings pages.</p>
+						<p>All the templates are responsive, and will automatically rearrange themselves to appear optimally at any screen size. When designing any page, remember to check how it looks on different screen sizes, including mobile.</p>
+						<p>The basic hierarchy for navigating a Cambridge University local website is as follows:</p>
+						<div class="center-img">
+							<img src="../images/styleguide/templates.png" class=" campl-scale-with-grid"/>
+						</div>
+						<ul class="campl-unstyled-list styleguide-menu">
+							<li>
+								<h4>University homepage</h4>
+								<p>This is a unique template for the main University homepage, with its own header and footer. A compact variant of this header and footer appears on all other pages (see <a href="../components/core-elements/global-header.html">Global header</a>).</p>
+								<p><a href="homepage.html" title="">Example</a></p>
+								<p><a href="homepage-annotations.html">Usage notes</a></p>
+							</li>
+							<li>
+								<h4>Section landing page</h4>
+								<p>A Section landing page is the homepage for an institution, organisation or theme within the University (eg Faculty of Modern & Medieval Languages; Philanthropy/Alumni; Institute of Continuing Education).</p>
+								<p><a href="section-landing.html" title="">Example</a></p>
+								<p><a href="section-landing-annotations.html">Usage notes</a></p>
+							</li>
+							<li>
+								<h4>Subsection page with left navigation</h4>
+								<p>Subsection pages appear at levels beneath the Section landing page. This is the standard subsection page layout with left-hand navigation. For more detail about how the local navigation behaves on Subsection pages, see <a href="../components/core-components/local-navigation.html">Local navigation</a>.</p>
+								<p><a href="sub-section-with-left-navigation.html">Example</a></p>
+								<p><a href="sub-section-with-left-annotations.html">Usage notes</a></p>
+							</li>
+							<li>
+								<h4>Subsection page without left navigation</h4>
+								<p>This Subsection page variant is for subsection pages that don‚Äôt need a left-hand navigation.</p>
+								<p>This will <strong>only</strong> be the case when the local navigation is only one level deep: in other words, where the local site only consists of the pages listed in the horizontal navigation bar.</p>
+								<p><a href="sub-section-without-left-navigation.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>Subsection page without right column</h4>
+								<p>This variant can be used when there is no need for a tertiary content column on the right.</p>
+								<p><a href="sub-section-without-right-column.html" title="">Example</a></p>
+							</li>
+
+							<li>
+								<h4>Event listing page</h4>
+								<p>This template is used to display listings. For more information about events, search results and news listings, see <a href="../components/inpage-components/index.html">In-page components</a>.</p>
+								<p><a href="event-landing.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>Search results</a></h4>
+								<p>The standard Search results page.</p>
+								<p><a href="search-results.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>A-Z listings index page</h4>
+								<p>Used for index pages with large link lists, such as the Departments A-Z.</p>
+								<p><a href="a-z-index.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>Person profile page</h4>
+								<p>The standard layout for a person profile.</p>
+								<p><a href="person-profile-page.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>Log in page</h4>
+								<p>This template is for the standard University Raven log in page, but could potentially be repurposed for other login pages.</p>
+								<p><a href="login-form.html" title="">Example</a></p>
+							</li>
+							<li>
+								<h4>Article page with blockquote</h4>
+								<p>This template is to demonstrate how using the grid layout can position content alongside body text.</p>
+								<p><a href="article-page.html" title="">Example</a></p>
+							</li>
+						</ul>
+						<p>If you don't see the page template you are looking for you can create a new template variant from the <a href="../components/core-elements/index.html#page-layouts">page layouts</a> within the core elements section.</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-global-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<p>&#169; 2012 University of Cambridge</p>
+			</div>
+		</div>	
+	</div>
+	<script type="text/javascript" src="../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../javascripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="../javascripts/custom.js"></script>
+</body>
+</html>

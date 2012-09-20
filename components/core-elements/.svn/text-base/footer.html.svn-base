@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+	<!-- <script type="text/javascript" src='http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js'></script>-->
+</head>
+<body>
+	<div class="campl-row campl-local-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">About the Faculty</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Lorem ipsum dolor</a>
+						</li>
+						<li>
+							<a href="">Sit amet</a>
+						</li>
+						<li>
+							<a href="">Consectetur adipisicing elit</a>
+						</li>
+						<li>
+							<a href="">Sed do eiusmod</a>
+						</li>
+						<li>
+							<a href="">Tempor incididunt</a>
+						</li>
+					</ul>
+				</div>
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Research</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Ut labore et dolore</a>
+						</li>
+						<li>
+							<a href="">Ut enim ad minim veniam</a>
+						</li>
+						<li>
+							<a href="">Magna aliqua</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">About the University</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Quis nostrud exercitation</a>
+						</li>
+						<li>
+							<a href="">Ullamco laboris nisi</a>
+						</li>
+						<li>
+							<a href="">Ut aliquip ex ea commodo</a>
+						</li>
+						<li>
+							<a href="">Duis aute irure dolor</a>
+						</li>
+					</ul>
+				</div>
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Libraries &amp; facilities</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">In reprehenderit in voluptate</a>
+						</li>
+						<li>
+							<a href="">Velit esse cillum dolore</a>
+						</li>
+						<li>
+							<a href="">Eu fugiat nulla pariatur</a>
+						</li>
+						<li>
+							<a href="">Duis aute irure dolor</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Graduate</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Excepteur sint occaecat</a>
+						</li>
+						<li>
+							<a href="">Cupidatat non proident</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation last">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Subjects</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Sunt in culpa qui officia</a>
+						</li>
+						<li>
+							<a href="">Deserunt mollit anim</a>
+						</li>
+						<li>
+							<a href="">Id est laborum</a>
+						</li>
+						<li>
+							<a href="">Duis aute irure dolor</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="campl-row campl-global-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-footer-logo">
+					<img alt=""  src="../../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+					<p>&#169; 2012 University of Cambridge, <br />
+						The old schools, Trinity Lane, <br />
+						Cambridge CB2 1TN, UK</p>
+						<ul class="campl-unstyled-list campl-global-footer-links">
+							<li>
+								<a href="">A-Z</a>
+							</li>
+							<li>
+								<a href="">Contact us</a>
+							</li>
+							<li>
+								<a href="">Privacy</a>
+							</li>
+							<li>
+								<a href="">Accessibility</a>
+							</li>
+							<li>
+								<a href="">Freedom of information</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+
+					<div class="link-list">
+						<h3><a href="">Study with us</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Graduates</a>
+							</li>
+							<li>
+								<a href="">Undergraduates</a>
+							</li>
+							<li>
+								<a href="">International students</a>
+							</li>
+							<li>
+								<a href="">Visit us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">About the University</a></h3> 
+					<ul class="campl-unstyled-list campl-page-children">
+						<li>
+							<a href="">History</a>
+						</li>
+						<li>
+							<a href="">Maps</a>
+						</li>
+						<li>
+							<a href="">  News &amp; events</a>
+						</li>
+						<li>
+							<a href="">Jobs</a>
+						</li>
+						<li>
+							<a href="">Business</a>
+						</li>
+						<li>
+							<a href="">Publications</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation last">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Our Research</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Lorem</a>
+						</li>
+						<li>
+							<a href="">Ipsum</a>
+						</li>
+						<li>
+							<a href="">Dolor</a>
+						</li>
+						<li>
+							<a href="">Sit</a>
+						</li>
+						<li>
+							<a href="">Amet</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	
+	<div class="campl-row styleguide-notes">
+		<div class="campl-wrap clearfix">
+			<div class="campl-content-container">
+				<div class="campl-column12">
+					<div class="campl-content-container styleguide-container">
+						<h2>Styleguide notes</h2>
+						<hr />
+						<h3>Footer component</h3>
+						<h4>Local footer</h4>
+						<p>The local footer provides additional navigation to help the user orientate themselves within the current local site.</p>
+
+						<p>At wider screen widths, the top two levels of links appear. At smaller widths, only top-level links appear.</p>
+
+						<h4>Global footer</h4>
+						<p>The standard black global footer appears on all Cambridge sites. It contains general University reference links, plus links to 
+							the three strategic content areas that also appear in the global header.</p>
+					
+						
+						<hr />
+						<div class="campl-content-container">
+							<h4>Usage</h4>
+							<p>At mobile resolution the footer structures will be simplified to show less options for ease of scrolling.</p>
+							<hr /><h4>Interaction</h4>
+							<p>N/a</p>
+							<hr />
+							<h4>CSS and media queries</h4>
+							<p>Separate desktop and mobile views are created by using a 767px max-width media query.</p>
+							<p>The horizontal layout of the footer columns will be collapsed into a vertical structure and unwanted nav items will be removed
+								from the mobile view to reduce vertical scrolling.</p>
+							<hr />
+							<h4>Use of Javascript</h4>
+							<p>Javascript is used to create equal height columns. Users without Javascript will see the actual height of each container.</p>
+							<hr />
+							<h4>Component variants</h4>
+							<p>The local footer is optional.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../../javascripts/custom.js"></script>
+</body>
+</html>

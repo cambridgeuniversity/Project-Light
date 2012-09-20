@@ -1,0 +1,30 @@
+Low priority bugs 
+---------------------------------
+
+Equal height columns in megadropdown - dynamic instead of hardcoded
+Event landing secondary column does not reach bottom
+Fix flash of unstyled content issue where attr style removal on mobile is taking away the display:block for FOUC items?? any more problems with these
+Add megadropdown to FOUC
+Carousel buttons taking long time to load on blackberry
+
+
+TUESDAY
+=====================================
+
+
+Refactoring 
+-------------------------------------
+Move generic colours back up into main stylesheet?
+
+Separate CSS out into full stylesheet and separate components
+Separate Javascript out into full page and separate components
+Replace modernizr with minified version
+Minify other javascript libraries and main css
+
+
+Final Documentation 
+--------------------------------------
+
+Add more description to interaction or usage or variants notation
+
+

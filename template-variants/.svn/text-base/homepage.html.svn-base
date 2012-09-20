@@ -1,0 +1,703 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Live style guide</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="../stylesheets/full-stylesheet.css" />
+  <link rel="stylesheet" href="../stylesheets/styleguide.css" />
+
+
+<script type="text/javascript" src="//use.typekit.com/dlf3don.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">  document.documentElement.className += " js";</script>
+</head>
+<body class="campl-theme-2">
+	<a href="#nav" class="campl-skipTo" tabindex="1">skip to navigation</a>
+	<a href="#content" class="campl-skipTo" tabindex="2">skip to content</a>
+	
+	<div class="campl-row campl-homepage-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-header-container campl-column8" id="global-header-controls">
+				<a href="/" class="campl-main-logo">
+					<img alt=""  src="../images/interface/main-logo-small.png" />
+				</a>
+
+				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation" id="primary-nav">
+					<li>
+						<a href="#study-with-us">Study with us</a>
+					</li>
+					<li>
+						<a href="#about-the-university">About the University</a>
+					</li>
+					<li>
+						<a href="" class="campl-no-drawer">Our research</a>
+					</li>
+				</ul>
+			</div>
+				
+			<div class="campl-column4">
+				
+				<div class="campl-site-search" id="site-search-btn">
+
+					<label for="header-search" class="hidden">Search site</label>
+					<div class="campl-search-input">
+
+						<input id="header-search" type="text" value="" placeholder="Search"/>
+						
+						<input type="image" class="campl-search-submit " src="../images/interface/btn-search-header.png"/>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="campl-row campl-global-header campl-search-drawer">
+		<div class="campl-wrap clearfix">
+			<form class="campl-site-search-form" id="site-search-container" action="">
+				<div class="campl-search-form-wrapper clearfix">
+					<input type="text" class="text" placeholder="Search"/>
+					<input type="image" class="campl-search-submit" src="../images/interface/btn-search.png" />
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-global-navigation-drawer">
+
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column12 campl-home-link-container">
+				<a href="" >Home</a>
+			</div>
+		</div>
+		<div class="campl-wrap clearfix">		
+			<div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+				<div class="campl-global-navigation-outer clearfix" id="study-with-us">
+					<ul class="campl-unstyled-list campl-global-navigation-header-container ">
+						<li><a href="" >Study with us</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Undergraduate</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li>
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Graduate</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li>
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list last">
+							<li>
+								<a href="" >International students</a>
+							</li>
+							<li>
+								<a href="" >Lifelong learning</a>
+							</li>
+							<li>
+								<a href="" >Professional learning</a>
+							</li>
+							<li>
+								<a href="" >Courses in education</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="about-the-university">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >About the University</a></li>
+					</ul>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">Maps</a>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+							<li>
+								<a href="">History</a>
+								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
+									<li>
+										<a href="" >Link 1</a>
+									</li>
+									<li>
+										<a href="" >Link 2</a>
+									</li>
+									<li class="last">
+										<a href="" >Link 3</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="campl-column4">
+						<ul class="campl-global-navigation-container campl-unstyled-list last">
+							<li>
+								<a href="" >News &amp; Events</a>
+							</li>
+							<li>
+								<a href="" >Jobs</a>
+							</li>
+							<li>
+								<a href="" >Giving to Cambridge</a>
+							</li>
+							<li>
+								<a href="" >Community outreach</a>
+							</li>
+							<li>
+								<a href="" >International cambridge</a>
+							</li>
+							<li class="last">
+								<a href="" >Publications</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="campl-global-navigation-outer clearfix" id="our-research">
+					<ul class="campl-global-navigation-header-container campl-unstyled-list">
+						<li><a href="" >Our research</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+				<li>
+					<a href="">For staff &amp; students</a>
+				</li>
+				<li>
+					<a href="">For alumni</a>
+				</li>
+				<li>
+					<a href="">For business</a>
+				</li>
+				<li>
+					<a href="">For teachers</a>
+				</li>
+				<li>
+					<a href="">Colleges &amp; departments</a>
+				</li>
+				<li>
+					<a href="">Libraries &amp; facilities</a>
+				</li>
+				<li>
+					<a href="">Museums &amp; collections</a>
+				</li>
+				<li class="last">
+					<a href="">Email &amp; phone search</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-page-header campl-homepage-logo-header">
+		<div class="campl-wrap clearfix">	
+			<div class="campl-column7">
+				<div class="campl-content-container clearfix">
+					<a href="/" class="campl-main-logo">
+						<img alt=""  src="../images/interface/main-logo-homepage.png" />
+					</a>
+				</div>
+			</div>
+			
+			<div class="campl-column5">
+				<div class="campl-content-container clearfix">
+					<div class="campl-column6">
+						<ul class="campl-unstyled-list campl-homepage-quicklinks">
+							<li><a href="">For staff &amp; students</a></li>
+							<li><a href="">For alumni</a></li>
+							<li><a href="">For business</a></li>
+							<li><a href="">For teachers</a></li>
+						</ul>
+					</div>	
+		
+					<div class="campl-column6">
+						<ul class="campl-unstyled-list campl-homepage-quicklinks">
+							<li><a href="">Colleges &amp; departments</a></li>
+							<li><a href="">Libraries &amp; facilities</a></li>
+							<li><a href="">Museums &amp; collections</a></li>
+							<li><a href="">Email &amp; phone search</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="campl-row campl-page-header" id="content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column12">
+				<div class="campl-homepage-carousel campl-recessed-carousel campl-carousel clearfix campl-banner" id="carousel">
+					<div class="campl-carousel-container">
+						<ul class="campl-unstyled-list campl-slides">
+							<li class="campl-slide">
+								<div class="campl-column8 image-container">
+									<a href="http://www.cam.ac.uk/research/features/weather-washed-tide-turned/">
+										<img alt="Robert Macfarlane in Orford ness"  src="../images/content/homepage-carousel-01.jpg" class="campl-scale-with-grid" />
+									</a>
+								</div>
+								<div class="campl-column4 campl-carousel-content">
+									<div class="campl-content-container">
+										<p>"We cooked up a breakfast in one of the abandoned buildings."</p>
+									</div>
+								</div>
+								<div class="campl-slide-caption">
+									<a href="http://www.cam.ac.uk/research/features/weather-washed-tide-turned/"><span class="campl-slide-caption-txt">Robert Macfarlane on writing a libretto celebrating the landscape of Orford Ness</span></a>
+								</div>
+							</li>
+							<li class="campl-slide">
+								<div class="campl-column8 image-container">
+									<a href="http://www.cam.ac.uk/research/news/new-light-shed-on-explosive-solar-activity/">
+										<img alt="photography of solar activity"  src="../images/content/homepage-carousel-02.jpg" class="campl-scale-with-grid" />
+									</a>
+								</div>
+								<div class="campl-column4 campl-carousel-content">
+									<div class="campl-content-container">
+										<p>New light shed on explosive solar activity</p>
+									</div>
+								</div>
+								<div class="campl-slide-caption">
+									<a href="http://www.cam.ac.uk/research/news/new-light-shed-on-explosive-solar-activity/"><span class="campl-slide-caption-txt">One more step towards understanding the origins of extreme space storms.</span></a>
+								</div>
+							</li>
+							<li class="campl-slide">
+								<div class="campl-column8 image-container">
+									<a href="http://www.cam.ac.uk/research/news/welcome-to-bastion-warzone-ethnography-with-the-combat-surgeons/">
+										<img alt="Medics at work"  src="../images/content/homepage-carousel-03.jpg" class="campl-scale-with-grid" />
+									</a>
+								</div>
+								<div class="campl-column4 campl-carousel-content">
+									<div class="campl-content-container">
+										<p>"At Bastion, you see the best teamwork you will ever see."</p>
+									</div>
+								</div>
+								<div class="campl-slide-caption">
+									<a href="http://www.cam.ac.uk/research/news/welcome-to-bastion-warzone-ethnography-with-the-combat-surgeons/"><span class="campl-slide-caption-txt">Mark de Rond on warzone ethnography with UK medics in Afghanistan.</span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="campl-row campl-content campl-recessed-content campl-homepage-content">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column8 campl-main-content">
+				<div class="campl-content-container"> 
+					<div class="campl-heading-container">
+						<h2>Focus on</h2>
+					</div>
+				</div>		
+				<div class="campl-column6">
+					<div class="campl-content-container campl-side-padding">
+						<div class="campl-horizontal-teaser campl-teaser clearfix campl-focus-teaser"> 
+							<div class="campl-focus-teaser-img">
+								<div class="campl-content-container campl-horizontal-teaser-img">
+									<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/focus-01.png" class="campl-scale-with-grid" /></a>
+								</div>
+							</div>
+							<div class="campl-focus-teaser-txt">
+								<div class="campl-content-container campl-horizontal-teaser-txt">
+									<h3 class='campl-teaser-title'><a href="#">Studying at Cambridge</a></h3>
+									<a href="#" class="ir campl-focus-link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-side-padding">
+						<div class="campl-horizontal-teaser campl-teaser clearfix campl-focus-teaser"> 
+							<div class="campl-focus-teaser-img">
+								<div class="campl-content-container campl-horizontal-teaser-img">
+									<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/focus-02.png" class="campl-scale-with-grid" /></a>
+								</div>
+							</div>
+							<div class="campl-focus-teaser-txt">
+								<div class="campl-content-container campl-horizontal-teaser-txt">
+									<h3 class='campl-teaser-title'><a href="#">About the University</a></h3>
+									<a href="#" class="ir campl-focus-link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-side-padding">
+						<div class="campl-horizontal-teaser campl-teaser clearfix campl-focus-teaser"> 
+							<div class="campl-focus-teaser-img">
+								<div class="campl-content-container campl-horizontal-teaser-img">
+									<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/focus-03.png" class="campl-scale-with-grid" /></a>
+								</div>
+							</div>
+							<div class="campl-focus-teaser-txt">
+								<div class="campl-content-container campl-horizontal-teaser-txt">
+									<h3 class='campl-teaser-title'><a href="#">Our research</a></h3>
+									<a href="#" class="ir campl-focus-link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-side-padding">
+						<div class="campl-horizontal-teaser campl-teaser clearfix campl-focus-teaser"> 
+							<div class="campl-focus-teaser-img">
+								<div class="campl-content-container campl-horizontal-teaser-img">
+									<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/focus-04.png" class="campl-scale-with-grid" /></a>
+								</div>
+							</div>
+							<div class="campl-focus-teaser-txt">
+								<div class="campl-content-container campl-horizontal-teaser-txt">
+									<h3 class='campl-teaser-title'><a href="#">University news</a></h3>
+									<a href="#" class="ir campl-focus-link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<div class="campl-column12">
+					<div class="campl-side-padding campl-content-container">
+						<div class="campl-heading-container">
+							<h2>What's Happening</h2>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-homepage-teaser">
+						<div class="campl-vertical-teaser campl-teaser"> 
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<span class="campl-topic">Lorem</span>
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/homepage-teaser-01.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#" class="campl-primary-cta">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="campl-column6">
+					<div class="campl-content-container campl-homepage-teaser campl-alt">	
+						<div class="campl-vertical-teaser campl-teaser "> 
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<span class="campl-topic">Research</span>
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/homepage-teaser-02.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#" class="campl-primary-cta">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column12">
+					<div class="campl-side-padding campl-content-container">
+						<hr class="campl-teaser-divider" />
+					</div>
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-homepage-teaser">
+						<div class="campl-vertical-teaser campl-teaser"> 
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<span class="campl-topic">News</span>
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/homepage-teaser-03.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#" class="campl-primary-cta">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="campl-column6">
+					<div class="campl-content-container campl-homepage-teaser campl-alt">
+						<div class="campl-vertical-teaser campl-teaser"> 
+							<div class="campl-content-container campl-vertical-teaser-img">
+								<span class="campl-topic">Science</span>
+								<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/homepage-teaser-04.png" class="campl-scale-with-grid" /></a>
+							</div>
+							<div class="campl-content-container campl-vertical-teaser-txt">
+								<h3 class='campl-teaser-title'><a href="#">The MML tripos</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<a href="#" class="campl-primary-cta">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="campl-column12">
+					<div class="campl-content-container campl-side-padding">
+						<a href="" class="campl-load-more-btn">Load more</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="campl-column4 campl-secondary-content">
+				<div class="campl-content-container">
+					<div class="campl-heading-container">
+						<h2>Popular Links</h2>
+					</div>
+					<ul class='campl-unstyled-list campl-related-links'>
+						<li><a href="#">Notices</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Museums</a></li>
+						<li><a href="#">Hermes web mail</a></li>
+						<li><a href="#">Philanthropy</a></li>
+						<li><a href="#">Term dates</a></li>
+					</ul>
+				</div>
+				<div class="campl-content-container">	
+					<h2>Highlight events</h2>
+					<ul class='campl-unstyled-list highlight-events'>
+					
+						<li class="campl-highlight-event-item clearfix">
+							<div class="campl-highlight-date-container">
+								<span class="campl-highlight-date"><span class="campl-highlight-day">18</span>Jul</span>
+							</div>
+							<div class="campl-highlight-event-details">
+							
+								<span class="campl-highlight-event-link"><a href="/whatson/detail.shtml?uid=058fcb5b-c6de-47e1-bc44-b306e02d1bfb">The puzzle of Byzantine ceramic plates</a></span>
+							</div>
+						</li>
+						<li class="campl-highlight-event-item clearfix">
+							<div class="campl-highlight-date-container">
+								<span class="campl-highlight-date"><span class="campl-highlight-day">24</span>Jul</span>
+							</div>
+							<div class="campl-highlight-event-details">
+								<span class="campl-highlight-event-link"><a href="/whatson/detail.shtml?uid=4e2d4afd-b503-4bc4-a67c-ef316add0ea3">Art Speak</a></span>
+							</div>
+						</li>
+						<li class="campl-highlight-event-item clearfix">
+							<div class="campl-highlight-date-container">
+								<span class="campl-highlight-date"><span class="campl-highlight-day">26</span>Jul</span>
+							</div>
+							<div class="campl-highlight-event-details">
+
+								<span class="campl-highlight-event-link"><a href="/whatson/detail.shtml?uid=9c287f28-1587-414b-83dd-c350662c512d">Urban democracy by design</a></span>
+							</div>
+						</li>
+						<li class="campl-highlight-event-item clearfix">
+							<div class="campl-highlight-date-container">
+								<span class="campl-highlight-date"><span class="campl-highlight-day">28</span>Aug</span>
+							</div>
+							<div class="campl-highlight-event-details">
+
+								<span class="campl-highlight-event-link"><a href="/whatson/detail.shtml?uid=0808a766-3eff-439b-aa3b-4b40c177577f">The Young Atheist's Handbook</a></span>
+							</div>
+						</li>					
+					</ul>
+					<p><a href="" class="campl-secondary-cta campl-float-right ">View all events</a></p>
+				</div>
+				
+				<div class="campl-content-container">
+					<div class="campl-heading-container">
+						<h2>Latest news</h2>
+					</div>
+				</div>
+				<div class="campl-content-container campl-no-top-padding">	
+					<div class="campl-listing-item campl-news-listing clearfix">
+						<p class="campl-listing-title"><a href="#4">Traumatic childhood may increase the risk of drug addiction</a></p>
+						<span class="campl-datestamp">31 August 2012</span>
+						<p>Research examines the link between a traumatic upbringing and personality traits which increase the risk of addiction.</p>
+					</div>
+					<div class="campl-listing-item campl-news-listing clearfix">
+						<p class="campl-listing-title"><a href="#4">Ham Hill digs enhance picture of Iron Age life</a></p>
+						<span class="campl-datestamp">30 August 2012</span>
+						<p>A second season of excavations at Britain’s biggest Iron Age hill-fort has uncovered remains of Roman weaponry, and the site of the first “ham stone” house.</p>
+					</div>
+					<div class="campl-listing-item campl-news-listing clearfix">
+						<p class="campl-listing-title"><a href="#4">Stephen Hawking in Paralympics Opening Ceremony</a></p>
+						<span class="campl-datestamp">30 August 2012</span>
+						<p>A thought-provoking extravaganza marking the beginning of the Paralympic Games was kicked off yesterday by Professor Stephen Hawking (pictured here at the Technical Rehearsal).</p>
+					</div>
+					
+					<p><a href="" class="campl-secondary-cta campl-float-right ">View all news</a></p>
+				</div>
+				<div class="campl-content-container">
+					<div class="campl-vertical-teaser campl-teaser campl-promo-teaser"> 
+						<div class="campl-content-container campl-vertical-teaser-txt">
+							<p class='campl-teaser-title'><a href="#">Promo teaser with title above</a></p>
+						</div>
+						<div class="campl-content-container campl-vertical-teaser-img">
+							<a href="#" class="campl-teaser-img-link"><img alt=""  src="../images/content/homepage-promo-placeholder.png" class="campl-scale-with-grid" /></a>
+						</div>
+						<div class="campl-content-container campl-vertical-teaser-txt clearfix">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							<a href="#4" class="campl-secondary-cta campl-float-right">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="campl-row campl-global-footer">
+		<div class="campl-wrap clearfix">
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-footer-logo">
+					<img alt=""  src="../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+					<p>&#169; 2012 University of Cambridge, <br />
+						The old schools, Trinity Lane, <br />
+						Cambridge CB2 1TN, UK</p>
+						<ul class="campl-unstyled-list campl-global-footer-links">
+							<li>
+								<a href="">A-Z</a>
+							</li>
+							<li>
+								<a href="">Contact us</a>
+							</li>
+							<li>
+								<a href="">Privacy</a>
+							</li>
+							<li>
+								<a href="">Accessibility</a>
+							</li>
+							<li>
+								<a href="">Freedom of information</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+
+					<div class="link-list">
+						<h3><a href="">Study with us</a></h3> 
+						<ul class="campl-unstyled-list">
+							<li>
+								<a href="">Graduates</a>
+							</li>
+							<li>
+								<a href="">Undergraduates</a>
+							</li>
+							<li>
+								<a href="">International students</a>
+							</li>
+							<li>
+								<a href="">Visit us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">About the University</a></h3> 
+					<ul class="campl-unstyled-list campl-page-children">
+						<li>
+							<a href="">History</a>
+						</li>
+						<li>
+							<a href="">Maps</a>
+						</li>
+						<li>
+							<a href="">  News &amp; events</a>
+						</li>
+						<li>
+							<a href="">Jobs</a>
+						</li>
+						<li>
+							<a href="">Business</a>
+						</li>
+						<li>
+							<a href="">Publications</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="campl-column3 campl-footer-navigation last">
+				<div class="campl-content-container campl-navigation-list">
+					<h3><a href="">Our Research</a></h3> 
+					<ul class="campl-unstyled-list">
+						<li>
+							<a href="">Lorem</a>
+						</li>
+						<li>
+							<a href="">Ipsum</a>
+						</li>
+						<li>
+							<a href="">Dolor</a>
+						</li>
+						<li>
+							<a href="">Sit</a>
+						</li>
+						<li>
+							<a href="">Amet</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	
+	<script type="text/javascript" src="../javascripts/libs/ios-orientationchange-fix.js"></script>
+  	<script type="text/javascript" src="../javascripts/libs/jquery-min.js"></script>
+	<script type="text/javascript" src="../javascripts/libs/modernizr.js"></script>
+  	<script type="text/javascript" src="../javascripts/custom.js"></script>
+</body>
+</html>
