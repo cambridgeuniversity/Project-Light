@@ -2184,7 +2184,47 @@ th.campl-alt{background:#fff;color:#28828a}
 	.js .campl-theme-6 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:focus,
 	.js .campl-theme-6 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:hover{background-color:#a51137;}
 
-}
+	/*theme 7*/
+	.js .campl-theme-7 .campl-local-navigation a{background:#404040;border-right:0;border-top:0}
+	.campl-theme-7 .campl-local-navigation li a{border-bottom:1px solid #5F5F5F;}
+	.js .campl-theme-7 .campl-local-navigation li li a,
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub li.campl-sub a{background-color:#404040;}
+	
+	.js .campl-theme-7 .campl-local-navigation li.campl-title a,
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub li.campl-title a,
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub li.campl-sub li.campl-title a,
+	.js .campl-theme-7 .campl-local-navigation a:focus,
+	.js .campl-theme-7 .campl-local-navigation a:hover,
+	.js .campl-theme-7 .campl-local-navigation a:active{background-color:#5F5F5F;}
+	
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub a:focus, 
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub a:hover{background-color: #5F5F5F}
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub li a:focus, 
+	.js .campl-theme-7 .campl-local-navigation li.campl-sub li a:hover{background-color: #5F5F5F;}
+
+	.js .campl-theme-7 .campl-menu-btn a{border:0;background:#5F5F5F;}
+	
+	.campl-theme-7 .campl-menu-btn-arrow{background: #2F2F2F }
+	.js .campl-theme-7 .campl-menu-btn-arrow a:focus, 
+	.js .campl-theme-7 .campl-menu-btn-arrow a:hover{background-color:#2F2F2F;}
+	.campl-theme-7 .campl-menu-indicator{background-color:#5F5F5F;}
+
+	.js .campl-theme-7 .campl-local-navigation-container li:first-child a{border-top:1px solid #2F2F2F;}
+	
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-back-link a,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-back-link a,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-back-link a,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a {border-bottom:1px solid #5F5F5F; background-color: #2F2F2F;}
+	
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-back-link a:focus,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-back-link a:hover,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-back-link a:focus,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-back-link a:hover,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-back-link a:focus,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-back-link a:hover,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:focus,
+	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:hover{background-color:#5F5F5F;}
+}}
 
 /* generic colours */
 .campl-global-header{background:#000000}
