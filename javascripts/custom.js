@@ -859,7 +859,7 @@ projectlight.createCarousel = function(){
 		this.slides.queue(function() {
 			carousel.timer = window.setTimeout(function() {
 				carousel.animateSlides('right');
-			}, 3000);
+			}, 6000);
 		})
 		carousel.slides.dequeue();
 	};
@@ -899,7 +899,7 @@ projectlight.createCarousel = function(){
 				}
 			}
 
-			this.slides.animate({left: endPos}, 1000, function(){
+			this.slides.animate({left: endPos}, 2500, function(){
 				//after carousel has finished moving 
 				if(carousel.currentSlide === carousel.maxSlides){	
 					carousel.slides.css({left:(-carousel.maxSlides * carousel.carouselContainer.innerWidth())+'px'});
