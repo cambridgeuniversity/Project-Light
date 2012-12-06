@@ -966,14 +966,12 @@ projectlight.createCarousel = function(){
 projectlight.markExternalLinks = function(){
 	if (jQuery.browser.msie) {
 		$("#content a[href*='http://']").not(".campl-carousel a[href*='http://']").addClass("campl-external").attr({
-			"target": "_blank",
 			"title": $(this).attr("title")+" (Link to an external website)"
 		})	
 	}else{
 		$('#content a').not(".campl-carousel a").filter(function(){
 			return this.hostname && this.hostname !== location.hostname;
 		}).addClass("campl-external").attr({
-			"target": "_blank",
 			"title": $(this).attr("title")+" (Link to an external website)"
 		})
 	}
