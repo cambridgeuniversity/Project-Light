@@ -474,7 +474,7 @@ legend + .campl-control-group {margin-top: 18px;-webkit-margin-top-collapse: sep
 body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-row{clear:both;width:100%;}
-.lt-ie9 .campl-row, .lt-ie8 .campl-row{min-width:1500px}
+.lt-ie9 .campl-row, .lt-ie8 .campl-row{min-width:auto}
 
 .campl-wrap{margin:0 auto;position:relative;clear:both;width:1177px}
 .campl-fixed-container{width:1024px}/*to remove fluid container from browsers without media queries */
