@@ -782,9 +782,6 @@ projectlight.createCarousel = function(){
 
 		}
 	}
-	
- 
-	
 
 	carousel.createPaginationIndicator = function(){
 		carousel.slides.children().each(function(i){
