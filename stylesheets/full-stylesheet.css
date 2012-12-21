@@ -61,7 +61,8 @@ blockquote p.campl-quote-mark{background:url(../images/interface/bg-blockquote-b
 blockquote cite {display: block;line-height: 18px;color: #999999;clear:both}
 blockquote cite:before {content: '\2014 \00A0';}
 q:before,q:after,blockquote:before,blockquote:after {content: ""; content: none;}
-
+blockquote.campl-float-right {margin-left:20px;width:230px;margin-top:0px;}
+blockquote.campl-float-right p {padding-right:0px;background:url(../images/interface/bg-blockquote-bottom.png) no-repeat bottom right;}
 
 /* Misc */
 hr {margin: 5px 0 20px;border: 0;border-top: 1px solid #eeeeee;border-bottom: 1px solid #ffffff;height:1px}
@@ -1116,6 +1117,7 @@ caption{background:#fff;padding:5px 0}
 @media (min-width: 768px) and (max-width: 979px) {
 	.campl-column3 .Zebra_DatePicker table{font-size:8px}
 	.campl-site-search .campl-search-input input{width:50%}
+	blockquote.campl-float-right {display:none}
 }
 
 /* anything smaller than tablet portrait ie. mobile devices */
@@ -1144,6 +1146,8 @@ caption{background:#fff;padding:5px 0}
 
 	img.campl-float-right{margin:10px 0 10px 0;}
 	img.campl-float-left{margin:10px 0 10px 0;}
+
+	blockquote.campl-float-right {display:none}
 	
 	textarea,
 	input[type="text"],
@@ -2300,7 +2304,4 @@ table th{border-bottom:#e4e4e4 1px solid}
  * z-index:15 	global header
  * z-index:16 	
 */
-
-
-
 
