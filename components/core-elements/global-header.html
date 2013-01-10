@@ -31,19 +31,19 @@
 	<div class="campl-row campl-global-header">
 		<div class="campl-wrap clearfix">	
 			<div class="campl-header-container campl-column8" id="global-header-controls">
-				<a href="/" class="campl-main-logo">
-					<img alt=""  src="../../images/interface/main-logo-small.png" />
+				<a href="http://www.cam.ac.uk" class="campl-main-logo">
+					<img alt="University of Cambridge"  src="../../images/interface/main-logo-small.png" />
 				</a>
 
 				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
 					<li>
-						<a  href="#study-with-us">Study at Cambridge</a>
+						<a  href="#study-with-us" >Study at Cambridge</a>
 					</li>
 					<li>
-						<a href="#about-the-university">About the University</a>
+						<a href="#about-the-university" >About the University</a>
 					</li>
 					<li>
-						<a href="" class="campl-no-drawer">Research at Cambridge</a>
+						<a href="http://www.cam.ac.uk/research" class="campl-no-drawer" >Research at Cambridge</a>
 					</li>
 				</ul>
 			</div>
@@ -59,10 +59,11 @@
 
 					<label for="header-search" class="hidden">Search site</label>
 					<div class="campl-search-input">
-
-						<input id="header-search" type="text" value="" placeholder="Search"/>
+						<form action="http://search.cam.ac.uk/web" method="get">
+						<input id="header-search" type="text" name="query" value="" placeholder="Search"/>
 						
 						<input type="image" class="campl-search-submit " src="../../images/interface/btn-search-header.png"/>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -90,12 +91,12 @@
 			<div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
 				<div class="campl-global-navigation-outer clearfix" id="study-with-us">
 					<ul class="campl-unstyled-list campl-global-navigation-header-container ">
-						<li><a href="" >Study at Cambridge</a></li>
+						<li><a href="http://www.cam.ac.uk/study-at-cambridge" >Study at Cambridge</a></li>
 					</ul>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
 							<li>
-								<a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+								<a href="http://www.study.cam.ac.uk/undergraduate/" >Undergraduate</a>
 								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
 									<li>
 										<a href="http://www.study.cam.ac.uk/undergraduate/courses/" >Courses</a>
@@ -110,7 +111,7 @@
 										<a href="http://www.study.cam.ac.uk/undergraduate/finance/" >Fees and finance</a>
 									</li>
 								  <li>
-										<a href="http://www.becambridge.com/">Student blogs and videos</a>
+										<a href="http://www.becambridge.com/" >Student blogs and videos</a>
 									</li>
 								</ul>
 							</li>
@@ -119,7 +120,7 @@
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
 							<li>
-								<a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+								<a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/" >Graduate</a>
 								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
 									<li>
 										<a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/whycam/" >Why Cambridge</a>
@@ -129,8 +130,8 @@
 									</li>
 									<li>
 									<a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/apply/" >How to apply</a></li>
-									<li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/">Fees and funding</a> </li>
-									<li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html">Frequently asked questions</a></li>
+									<li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/" >Fees and funding</a></li>
+									<li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html" >Frequently asked questions</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -138,16 +139,16 @@
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list last">
 							<li>
-								<a href="" >International students</a>
+								<a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge" >International students</a>
 							</li>
 							<li>
 								<a href="http://www.ice.cam.ac.uk" >Continuing education</a>
 							</li>
 							<li>
-								<a href="" >Executive and professional education</a>
+								<a href="http://www.admin.cam.ac.uk/offices/education/epe/" >Executive and professional education</a>
 							</li>
 							<li>
-								<a href="" >Courses in education</a>
+								<a href="http://www.educ.cam.ac.uk" >Courses in education</a>
 							</li>
 						</ul>
 					</div>
@@ -155,53 +156,62 @@
 
 				<div class="campl-global-navigation-outer clearfix" id="about-the-university">
 					<ul class="campl-global-navigation-header-container campl-unstyled-list">
-						<li><a href="" >About the University</a></li>
+						<li><a href="http://www.cam.ac.uk/about-the-university" >About the University</a></li>
 					</ul>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
 							<li>
-								<a href="" >How the University and Colleges work</a>
+								<a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work" >How the University and Colleges work</a>
 							</li>
 							<li>
-								<a href="">History</a>
+								<a href="http://www.cam.ac.uk/about-the-university/history" >History</a>
 							</li>	
 							<li>
-								<a href="" >Visiting the University</a>
+								<a href="http://www.cam.ac.uk/about-the-university/visiting-the-university" >Visiting the University</a>
+							</li>
+							<li>
+								<a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars" >Term dates and calendars</a>
 							</li>
 							<li class="last">
-								<a href="" >Maps</a>
+								<a href="http://map.cam.ac.uk" >Map</a>
 							</li>
 						</ul>
 					</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
 							<li>
-								<a href="" >For media</a>
+								<a href="http://www.cam.ac.uk/for-media" >For media</a>
 							</li>
 							<li>
-								<a href="" >Find an expert</a>
+								<a href="http://www.cam.ac.uk/video-and-audio" >Video and audio</a>
 							</li>
 							<li>
-								<a href="">Publications</a>
+								<a href="http://webservices.admin.cam.ac.uk/faesearch/map.cgi" >Find an expert</a>
+							</li>
+							<li>
+								<a href="http://www.cam.ac.uk/about-the-university/publications" >Publications</a>
 							</li>
 							<li class="last">
-								<a href="">International Cambridge</a>
+								<a href="http://www.cam.ac.uk/about-the-university/international-cambridge" >International Cambridge</a>
 							</li>
 						</ul>
 					</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
 							<li>
-								<a href="" >News &amp; events</a>
+								<a href="http://www.cam.ac.uk/news" >News</a>
 							</li>
 							<li>
-								<a href="" >Public engagement</a>
+								<a href="http://www.admin.cam.ac.uk/whatson" >Events</a>
 							</li>
 							<li>
-								<a href="" >Jobs</a>
+								<a href="http://www.cam.ac.uk/public-engagement" >Public engagement</a>
+							</li>
+							<li>
+								<a href="http://www.jobs.cam.ac.uk" >Jobs</a>
 							</li>
 							<li class="last">
-								<a href="" >Giving to Cambridge</a>
+								<a href="http://www.philanthropy.cam.ac.uk" >Giving to Cambridge</a>
 							</li>
 						</ul>
 					</div>
@@ -216,32 +226,33 @@
 
 			<ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
 				<li>
-					<a href="">For staff</a>
+					<a href="http://www.cam.ac.uk/for-staff" >For staff</a>
 				</li>
 				<li>
-					<a href="">For current students</a>
+					<a href="http://www.admin.cam.ac.uk/students/gateway" >For current students</a>
 				</li>
 				<li>
-					<a href="">For alumni</a>
+					<a href="http://www.alumni.cam.ac.uk" >For alumni</a>
 				</li>
 				<li>
-					<a href="">For business</a>
+					<a href="http://www.cam.ac.uk/for-business" >For business</a>
 				</li>
 				<li>
-					<a href="">Colleges &amp; departments</a>
+					<a href="http://www.cam.ac.uk/colleges-and-departments" >Colleges &amp; departments</a>
 				</li>
 				<li>
-					<a href="">Libraries &amp; facilities</a>
+					<a href="http://www.cam.ac.uk/libraries-and-facilities" >Libraries &amp; facilities</a>
 				</li>
 				<li>
-					<a href="">Museums &amp; collections</a>
+					<a href="http://www.cam.ac.uk/museums-and-collections" >Museums &amp; collections</a>
 				</li>
 				<li class="last">
-					<a href="">Email &amp; phone search</a>
+					<a href="http://www.cam.ac.uk/email-and-phone-search" >Email &amp; phone search</a>
 				</li>
 			</ul>
 		</div>
 	</div>
+    <!-- .campl-global-header ends -->
 	
 	<div class="campl-row styleguide-notes">
 		<div class="campl-wrap clearfix">
