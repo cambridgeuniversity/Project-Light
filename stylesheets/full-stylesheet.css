@@ -215,7 +215,7 @@ a:active { color: #0072cf; text-decoration:none;border-bottom:0}
 
 .campl-quicklinks-list a:focus, .campl-quicklinks-list a:hover, .campl-quicklinks-list a:active{text-decoration:none;background-color:#171717}
 
-.campl-global-navigation a:focus, .campl-global-navigation a:hover,.campl-global-navigation a:active, .campl-global-navigation .campl-selected a{color:#5a5a5a;text-decoration:none}
+.campl-global-navigation a:focus, .campl-global-navigation a:hover,.campl-global-navigation a:active, .campl-global-navigation .campl-selected a{color:#7a7a7a;text-decoration:none}
 
 .campl-global-navigation a:visited, .campl-desktop-list-layout a:visited, .campl-close-panel:visited, .campl-section-list-heading a:visited,
 .campl-homepage-quicklinks a:visited, .campl-slide-caption a, .campl-quicklinks-list a:visited{border-bottom:0}
