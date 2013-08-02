@@ -1,3 +1,5 @@
+(function($) {
+
 //create singleton to namespace js
 if (!projectlight) {
   var projectlight = {};
@@ -1147,6 +1149,7 @@ $(function() {
 	
 })
 
+})(jQuery);
 
 
 
