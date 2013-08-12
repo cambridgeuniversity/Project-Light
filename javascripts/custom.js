@@ -491,15 +491,15 @@ projectlight.localNav=(function(){
 		
 		//Bound click event for all links inside the local navigation. 
 		//handles moving forwards and backwards through pages or opening dropdown menu
-		$links.click(function(e){
+		$links.find('span').click(function(e){
 			var $linkClicked = $(this),
-			$listItemClicked = $linkClicked.parent();
-			
+			$listItemClicked = $linkClicked.parent().parent();
+
 			if($listItemClicked.hasClass("campl-title") && Modernizr.mq('only screen and (max-width: 767px)')){
-				e.preventDefault();	
+				e.preventDefault();
 			}else{
-				if($listItemClicked.hasClass("campl-sub")){
-					//slide mobile or tablet menu forward 
+				if($listItemClicked.hasClass("campl-sub") && Modernizr.mq('only screen and (max-width: 767px)')){
+					//slide mobile or tablet menu forward
 					if(projectlight.mobileLayout){
 						slideMenu("forward");
 						$listItemClicked.addClass("campl-current")
@@ -512,19 +512,19 @@ projectlight.localNav=(function(){
 							showSubNavigation($linkClicked, e)
 						}
 					}
-				e.preventDefault();	
+				e.preventDefault();
 				}else{
 					if($listItemClicked.hasClass("campl-back-link")){
 						slideMenu("back");
+						$linkClicked.parent().parent().parent().parent().addClass("campl-previous");
 						$linkClicked.parent().parent().parent().addClass("campl-previous");
-						$linkClicked.parent().parent().addClass("campl-previous");
 						return false
 					}
 				}
 			}
-			
+
 		});
-		
+
 		//ensure dropdown or sliding panels are set to the correct width if the page changes and also on first load
 		$(window).resize(function(){
 			setMenuWidth();
