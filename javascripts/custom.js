@@ -697,7 +697,7 @@ projectlight.createCarousel = function(){
 
 	// set up initial carousel values and autoplay, hide other slides
 	carousel.init = function(){
-		this.carouselContainer = $("#carousel");
+		this.carouselContainer = $(".campl-carousel").first();
 		this.slides = this.carouselContainer.find("ul");
 		this.currentSlide = 1;
 		this.maxSlides = this.slides.children().length;
@@ -1039,7 +1039,7 @@ $(function() {
 	
 	
 	//instantiate height of buttons for mobile users, on carousel object
-	if(document.getElementById('carousel')){
+	if($(".campl-carousel").length){
 		projectlight.createCarousel();
 		//wait for DOM ready to resize buttons for mobile
 		if(Modernizr.mq('only screen and (max-width: 767px)')){
@@ -1054,7 +1054,7 @@ $(function() {
 	//If the mode has changed the re-rendering or reset functions will be called to change the page layout
 	projectlight.$window.resize(function() {
 		
-		if(document.getElementById('carousel')){
+		if($(".campl-carousel").length){
 			projectlight.resetCarousel();
 
 			//truncate homepage carousel content if page is thinner
