@@ -697,8 +697,8 @@ projectlight.createCarousel = function(){
 
 	// set up initial carousel values and autoplay, hide other slides
 	carousel.init = function(){
-		this.carouselContainer = $("#carousel");
-		this.slides = this.carouselContainer.find("ul");
+		this.carouselContainer = $(".campl-carousel").first();
+		this.slides = this.carouselContainer.find("ul.campl-slides");
 		this.currentSlide = 1;
 		this.maxSlides = this.slides.children().length;
 		this.animating = false;
@@ -729,9 +729,9 @@ projectlight.createCarousel = function(){
 			this.createPaginationIndicator();
 			
 			// Clone first and last slides and append it to the slideshow to mimic infinite carousel functionality
-			var clonedFirstSlide = this.slides.find('li:first-child').clone();
+			var clonedFirstSlide = this.slides.children('li:first-child').clone();
 			this.slides.append(clonedFirstSlide);
-			var clonedLastSlide = this.slides.find('li:nth-child('+this.maxSlides+')').clone();
+			var clonedLastSlide = this.slides.children('li:nth-child('+this.maxSlides+')').clone();
 			this.slides.prepend(clonedLastSlide);	
 			
 			this.slide = this.slides.find("li")
@@ -1039,7 +1039,7 @@ $(function() {
 	
 	
 	//instantiate height of buttons for mobile users, on carousel object
-	if(document.getElementById('carousel')){
+	if($(".campl-carousel").length){
 		projectlight.createCarousel();
 		//wait for DOM ready to resize buttons for mobile
 		if(Modernizr.mq('only screen and (max-width: 767px)')){
@@ -1054,7 +1054,7 @@ $(function() {
 	//If the mode has changed the re-rendering or reset functions will be called to change the page layout
 	projectlight.$window.resize(function() {
 		
-		if(document.getElementById('carousel')){
+		if($(".campl-carousel").length){
 			projectlight.resetCarousel();
 
 			//truncate homepage carousel content if page is thinner
