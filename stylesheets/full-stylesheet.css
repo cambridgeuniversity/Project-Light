@@ -639,6 +639,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 /* Homepage Events highlight */
 .campl-highlight-event-item{border-top:1px solid #e4e4e4}
+.campl-highlight-event-item:first-child{border-top:none}
 .campl-highlight-date-container{width:55px;float:left;margin:0 10px 5px 0;}
 .campl-highlight-date{text-align:center;padding:0px 0 2px 0}
 .campl-highlight-day, .campl-highlight-event-link, .campl-highlight-date{display:block}
