@@ -1,4 +1,4 @@
-(function($) {
+﻿(function($) {
 
 //create singleton to namespace js
 if (!projectlight) {
@@ -224,8 +224,14 @@ projectlight.setContentColumnHeight = function(){
 	
 	//reset before adding further height
 	$('.campl-tertiary-navigation, .campl-secondary-content, .campl-main-content').removeAttr("style");
-	var maxColumnHeight = Math.max($('.campl-secondary-content').height(), $('.campl-tertiary-navigation').height(), $(".campl-main-content").height());
-	
+
+	var secondaryContentRecessedHeight = 0;
+
+	if($('.campl-secondary-content').hasClass("campl-recessed-secondary-content")) {
+		secondaryContentRecessedHeight = ($('.campl-secondary-content').parent().width() / 100) * 36.6;
+	}
+
+	var maxColumnHeight = Math.max($('.campl-secondary-content').height() - secondaryContentRecessedHeight, $('.campl-tertiary-navigation').height(), $(".campl-main-content").height());
 
 	if($('.campl-tertiary-navigation').length > 0){
 		$('.campl-tertiary-navigation, .campl-secondary-content, .campl-main-content').css({'min-height':maxColumnHeight+50} )
@@ -237,9 +243,7 @@ projectlight.setContentColumnHeight = function(){
 
 
 	if($('.campl-secondary-content').hasClass("campl-recessed-secondary-content")){
-		
-		//this seems to be different for a section landing than for event listing???
-		$('.campl-secondary-content').css({'min-height':maxColumnHeight + ((maxColumnHeight /100)*36.6) +50} 	)
+		$('.campl-secondary-content').css({'min-height':maxColumnHeight + secondaryContentRecessedHeight } 	)
 	}
 	
 	
