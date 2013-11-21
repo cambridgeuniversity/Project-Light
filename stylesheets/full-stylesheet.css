@@ -1306,11 +1306,10 @@ caption{background:#fff;padding:5px 0}
 
 	.js .campl-menu-btn{margin:0;display:block;}
 
-	.campl-menu-indicator{height:48px;width:48px;position:absolute;top:0%;left:10px;display:block;margin-top:0px;border-radius:1px; -webkit-border-radius:1px;background-repeat:no-repeat;background-position:50% 50%}
-	.campl-back-link .campl-menu-indicator{height:20px;width:20px;position:absolute;top:50%;left:10px;display:block;margin-top:-10px;border-radius:1px; -webkit-border-radius:1px;background-repeat:no-repeat;background-position:50% 50%}
-	.campl-fwd-btn{right:0px;left:auto;background-image:url(../images/interface/icon-fwd-btn.png) }
+	.campl-menu-indicator{height:20px;width:20px;position:absolute;top:50%;left:10px;display:block;margin-top:-10px;border-radius:1px; -webkit-border-radius:1px;background-repeat:no-repeat;background-position:50% 50%}
+	.campl-fwd-btn{right:10px;left:auto;background-image:url(../images/interface/icon-fwd-btn.png) }
 	.campl-back-btn{left:25px;background-image:url(../images/interface/icon-back-btn.png)}
-
+	
 	.js .campl-menu-btn span{padding:15px 0 15px 25px;display:block}
 	.js .campl-menu-btn a{padding:0;position:relative;}
 	.js .campl-menu-btn .campl-menu-btn-arrow{width:53px;height:53px;display:block;position:absolute;top:0;right:0;padding:0;background-repeat:no-repeat;background-position:50% 50%}
