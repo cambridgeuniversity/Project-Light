@@ -284,7 +284,6 @@ button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 :-ms-input-placeholder {color: #999999;}
 ::-webkit-input-placeholder {color: #999999;}
 
-textarea { overflow: auto; vertical-align: top; resize: vertical;height: auto; }
 .campl-uneditable-textarea {height: auto;}
 .campl-uneditable-input {overflow: hidden;white-space: nowrap;cursor: not-allowed;background-color: #ffffff;border-color: #eee;}
 
@@ -318,6 +317,8 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .campl-uneditable-input {display: inline-block;height: 18px;padding: 4px;margin-bottom: 9px; -webkit-border-radius: 0;}
+
+textarea { overflow: auto; vertical-align: top; resize: vertical;height: auto; }
 
 textarea,
 input[type="text"],
