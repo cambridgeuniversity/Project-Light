@@ -701,7 +701,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 .lt-ie8 .campl-local-navigation li {margin:0}
 .js .campl-local-navigation a{padding:10px 20px;}
 .js .campl-local-navigation li.campl-sub>a{padding:10px 40px 10px 10px;margin:0}
-.js .campl-local-navigation li.campl-sub>a{background-image:url(../images/interface/bg-local-navigation-sub-arrow.png);background-repeat:no-repeat;background-position:95% 50% ;}
+.js .campl-local-navigation li.campl-sub>a{background-image:url(../images/interface/bg-local-navigation-sub-arrow.png);background-repeat:no-repeat;background-position:100% 50% ;}
 
 .js .campl-local-navigation li > ul {margin-top:-1px}
 .js .campl-local-navigation li ul {left: -9999px;position: absolute; width: 235px;z-index:14;}
