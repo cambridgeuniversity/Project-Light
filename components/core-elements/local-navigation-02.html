@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 
-<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>		   <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js"><!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Live style guide</title>
   <meta name="description" content="" />
@@ -28,7 +26,17 @@
 <script type="text/javascript">  document.documentElement.className += " js";</script>
 </head>
 <body>
-	
+
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
 	<div class="campl-row campl-page-header campl-section-page">
 		<div class="campl-wrap clearfix">
 			<div class="campl-column12">
@@ -166,6 +174,10 @@
 			</div>
 		</div>	
 	</div>
+
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
 
 	<script type="text/javascript" src="../../javascripts/libs/ios-orientationchange-fix.js"></script>
   	<script type="text/javascript" src="../../javascripts/libs/jquery-min.js"></script>
