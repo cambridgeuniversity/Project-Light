@@ -351,7 +351,9 @@ projectlight.initTables = function(){
 			//need to find all children of the table rows, (and not just table data cells)
 			var $tableCells = $(this).children();
 			$tableCells.each(function (i) {
-				$(this).prepend("<span class='campl-table-heading'>"+headerTextArray[i]+"</span>")
+				if(headerTextArray[i]) {
+					$(this).prepend("<span class='campl-table-heading'>"+headerTextArray[i]+"</span>")
+				}
 			})
 
 		})
