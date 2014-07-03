@@ -781,11 +781,15 @@ projectlight.createCarousel = function(){
 		//truncate homepage carousel content if page is thinner than tablet view but not on mobile view
 		if(Modernizr.mq('only screen and (min-width: 768px) and (max-width: 1000px)')){	
 			projectlight.$slideCaption.each(function(){
-				$(this).text($.trim($(this).text()).substring(0, 50).split(" ").slice(0, -1).join(" ") + "...")
+        if($.trim($(this).text()).length>51) {
+					$(this).text($.trim($(this).text()).substring(0, 50).split(" ").slice(0, -1).join(" ") + "...")
+				}
 			})
 
 			projectlight.$carouselContent.each(function(){
-				$(this).text($.trim($(this).text()).substring(0, 35).split(" ").slice(0, -1).join(" ") + "...")
+				if($.trim($(this).text()).length>36) {
+					$(this).text($.trim($(this).text()).substring(0, 35).split(" ").slice(0, -1).join(" ") + "...")
+				}
 			})
 
 		}
@@ -1069,11 +1073,15 @@ $(function() {
 				//carousel height is remaining as if text isn't being truncated
 
 				projectlight.$slideCaption.each(function(i){
-						$(this).text($.trim(projectlight.slideCaptionItems[i]).substring(0, 50).split(" ").slice(0, -1).join(" ") + "...")
+						if(($.trim(projectlight.slideCaptionItems[i]).length>51)) {
+							$(this).text($.trim(projectlight.slideCaptionItems[i]).substring(0, 50).split(" ").slice(0, -1).join(" ") + "...")
+						}
 					})
 					
 					projectlight.$carouselContent.each(function(i){
-						$(this).text($.trim(projectlight.carouselContentItems[i]).substring(0, 35).split(" ").slice(0, -1).join(" ") + "...")
+						if(($.trim(projectlight.slideCaptionItems[i]).length>36)) {
+							$(this).text($.trim(projectlight.carouselContentItems[i]).substring(0, 35).split(" ").slice(0, -1).join(" ") + "...")
+						}
 					})
 			}else{
 				
