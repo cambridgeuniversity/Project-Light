@@ -1075,7 +1075,7 @@ caption{background:#fff;padding:5px 0}
 @media (min-width: 768px) and (max-width: 1280px) {
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 1023px) {
 	/*Change main nav*/
 	.campl-global-navigation{width:280px}
 	.campl-global-navigation li{width:33%}
