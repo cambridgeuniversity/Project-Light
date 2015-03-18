@@ -370,7 +370,7 @@ input[type="color"]:focus,
 .lt-ie8 input[type="search"]:focus,
 .lt-ie8 input[type="tel"]:focus,
 .lt-ie8 input[type="color"]:focus,
-.lt-ie8 .campl-uneditable-input:focus { outline:thin dotted 1px;}
+.lt-ie8 .campl-uneditable-input:focus { outline: dotted 1px;}
 
 
 input[disabled],
@@ -918,7 +918,7 @@ table {max-width: 100%;background-color: transparent;border-collapse: collapse;b
 .campl-table-bordered tbody:first-child tr:first-child th,
 .campl-table-bordered tbody:first-child tr:first-child td {border-top: 0;}
 
-.campl-table-heading{display:none;font-weight:bold;padding-right: 10px; white-space: wrap;}
+.campl-table-heading{display:none;font-weight:bold;padding-right: 10px; white-space: normal;}
 
 caption{background:#fff;padding:5px 0}
 .campl-responsive-table{position:relative}
@@ -1392,7 +1392,7 @@ caption{background:#fff;padding:5px 0}
 	
 	/* Behave  like a "row" */
 	.campl-vertical-stacking-table td {	border: none;border-bottom: 1px solid #e4e4e4; }
-	.campl-vertical-stacking-table td:before { white-space: wrap;}
+	.campl-vertical-stacking-table td:before { white-space: normal;}
 	.campl-table-heading{display:block;}
 	
 	.campl-nav-tabs{padding-left:0}
@@ -2230,7 +2230,7 @@ th.campl-alt{background:#fff;color:#28828a}
 	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-back-link a:hover,
 	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:focus,
 	.js .campl-theme-7 .campl-local-navigation-container li.campl-sub li.campl-sub li.campl-sub li.campl-back-link a:hover{background-color:#5F5F5F;}
-}}
+}
 
 /* generic colours */
 .campl-global-header{background:#000000}
