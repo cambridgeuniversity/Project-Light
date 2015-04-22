@@ -141,22 +141,22 @@ p { margin:0 0 10px 0}
 /* Font families */
 
 /* Bold		"myriad-pro"	700	normal */
-.campl-highlight-day, .campl-promo-teaser .campl-teaser-title, .campl-current-date{font-family:"myriad-pro", myriad, verdana, arial, sans-serif;font-weight:700;font-style:normal}
+.campl-highlight-day, .campl-promo-teaser .campl-teaser-title, .campl-current-date{font-family:"myriad-pro-n7", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:700;font-style:normal}
 
 /* Semibold	"myriad-pro"	600	normal */
 h2, h3, h4, h5, h6, .campl-global-navigation, .campl-global-navigation-header-container, .campl-global-navigation-container, .campl-local-footer h3, .campl-global-footer h3, 
-.campl-teaser-title, .campl-listing-title, .campl-vertical-breadcrumb, .campl-btn{font-family:"myriad-pro", myriad, verdana, arial, sans-serif;font-weight:600;font-style:normal}
+.campl-teaser-title, .campl-listing-title, .campl-vertical-breadcrumb, .campl-btn{font-family:"myriad-pro-n6", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:600;font-style:normal}
 
 /* Regular 	"myriad-pro"  	400 normal*/
-.campl-branding-title, .campl-topic, .campl-global-navigation-tertiary, .campl-local-navigation, .campl-vertical-breadcrumb-navigation{font-family:"myriad-pro", myriad, verdana, arial, sans-serif;font-weight:400;color:#888888}
+.campl-branding-title, .campl-topic, .campl-global-navigation-tertiary, .campl-local-navigation, .campl-vertical-breadcrumb-navigation{font-family:"myriad-pro-n4", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:400;color:#888888}
 
 /* Regular italic "myriad-pro"  400 italic */
-.campl-title-search-term{font-style: italic;font-weight: 400;}
+.campl-title-search-term{font-family:"myriad-pro-i4", "myriad-pro", myriad, verdana, arial, sans-serif;font-style: italic;font-weight: 400;}
 
 
 /* Light	"myriad-pro"	300	normal */
 h1, .campl-page-header h1, .campl-page-sub-title h2, .campl-secondary-content h2, .campl-main-content-sub-column h2, .campl-slide-caption-txt, .campl-carousel-content p,
-.campl-page-title, .campl-sub-title, legend, .campl-primary-cta, .campl-homepage-content h2, .campl-highlight-date, .campl-light-heading{font-family:"myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;}
+.campl-page-title, .campl-sub-title, legend, .campl-primary-cta, .campl-homepage-content h2, .campl-highlight-date, .campl-light-heading{font-family:"myriad-pro-n3", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;}
 
 
 /* Regular verdana bold */
@@ -661,6 +661,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 .campl-global-navigation{border-left:1px solid #2e2e2e;margin-right:15px;float:left}
 .campl-home-link-container{display:none}
 .campl-global-navigation li a{padding:25px 20px;border-right:1px solid #2e2e2e;display:block;word-wrap: break-word;}
+.lt-ie9 .campl-global-navigation li a{padding:25px 10px}
 .campl-global-navigation li a:focus, .campl-global-navigation li a:hover, .campl-global-navigation li a:active,
 .campl-global-navigation li.campl-selected a{border-left:1px solid #737373;border-right:1px solid #737373;margin-left:-1px;background:#171717;position:relative;z-index:7;}
 .campl-global-navigation li.campl-selected a{margin-bottom:-1px;padding-bottom:26px}
