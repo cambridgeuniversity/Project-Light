@@ -2242,7 +2242,7 @@ th.campl-alt{background:#fff;color:#28828a}
 .campl-global-navigation-container.last{border-right: 0;}
 
 .campl-theme-1 .campl-homepage-content h2, .campl-theme-2 .campl-homepage-content h2, .campl-theme-3 .campl-homepage-content h2,
-.campl-theme-4 .campl-homepage-content h2, .campl-theme-5 .campl-homepage-content h2, .campl-theme-6 .campl-homepage-content h2{color:#171717}
+.campl-theme-4 .campl-homepage-content h2, .campl-theme-5 .campl-homepage-content h2, .campl-theme-6 .campl-homepage-content h2, .campl-theme-7 .campl-homepage-content h2 {color:#171717}
 
 .campl-global-navigation-secondary-with-children, .campl-global-navigation-container li.last, .campl-global-navigation-secondary-with-children li{border-bottom:0}
 .campl-global-navigation-container li, .campl-global-navigation-header-container li{border-bottom: 1px solid #323232}
@@ -2267,7 +2267,7 @@ th.campl-alt{background:#fff;color:#28828a}
 
 tbody th, td{background:#fff;color:#222}
 /*reset background colour of themed tables with th in tbody*/
-.campl-theme-1 tbody th, .campl-theme-2 tbody th, .campl-theme-3 tbody th, .campl-theme-4 tbody th, .campl-theme-5 tbody th, .campl-theme-6 tbody th{background:#fff;color:#222;border-bottom:0}
+.campl-theme-1 tbody th, .campl-theme-2 tbody th, .campl-theme-3 tbody th, .campl-theme-4 tbody th, .campl-theme-5 tbody th, .campl-theme-6 tbody th, .campl-theme-7 tbody th {background:#fff;color:#222;border-bottom:0}
 table th{border-bottom:#e4e4e4 1px solid}
 .campl-table tbody tr:hover td, .campl-table tbody tr:hover th, 
 .campl-theme-1 .campl-table tbody tr:hover td, .campl-theme-1 .campl-table tbody tr:hover th, 
