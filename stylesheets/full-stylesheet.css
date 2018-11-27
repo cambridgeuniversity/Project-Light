@@ -1048,6 +1048,10 @@ caption{background:#fff;padding:5px 0}
 .lt-ie9 .campl-section-list-children li.campl-last{border:0;}
 .lt-ie9 .campl-section-list-children li li{font-weight:normal}
 
+/* Embedded Video */
+.campl-video-container {position: relative;padding-bottom: 56.25%;padding-top: 30px;height: 0;overflow: hidden;}
+.campl-video-container iframe, .campl-video-container object, .campl-video-container embed, .campl-video-container-inner {position: absolute;top: 0;left: 0;width: 100% !important;height: 100% !important;}
+
 
 /* 8.0 MEDIA QUERIES ------------------------------------------------------------------------------------------------*/
 
