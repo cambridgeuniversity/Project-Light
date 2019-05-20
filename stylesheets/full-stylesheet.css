@@ -475,7 +475,7 @@ legend + .campl-control-group {margin-top: 18px;-webkit-margin-top-collapse: sep
 /* guidance along side form elements */
 .campl-help-block{color: #555555;display: block;margin-bottom: 9px;}
 
-/* 6.0 GRID STRUCTURE & LAYOUT COMPONENTS (Grid taken from centage fluid grid framework)----------------------------------------------------*/
+/* 5.0 GRID STRUCTURE & LAYOUT COMPONENTS (Grid taken from centage fluid grid framework)----------------------------------------------------*/
 body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-row{clear:both;width:100%;}
@@ -573,7 +573,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-heading-container{border-bottom:1px solid #e4e4e4;}
 
-/* 7.0 CUSTOM MODULES -----------------------------------------------------------------------------------------------*/
+/* 6.0 CUSTOM MODULES -----------------------------------------------------------------------------------------------*/
 
 /* Header */
 .campl-global-header{position:relative;z-index:15}
@@ -1049,7 +1049,7 @@ caption{background:#fff;padding:5px 0}
 .lt-ie9 .campl-section-list-children li li{font-weight:normal}
 
 
-/* 8.0 MEDIA QUERIES ------------------------------------------------------------------------------------------------*/
+/* 7.0 MEDIA QUERIES ------------------------------------------------------------------------------------------------*/
 
 /* larger screens */
 @media only screen and (min-width: 1200px){
@@ -1423,7 +1423,7 @@ caption{background:#fff;padding:5px 0}
 @media (max-width: 480px) {}
 
 
-/* 9.0 COLOUR THEMES ------------------------------------------------------------------------------------------------*/
+/* 8.0 COLOUR THEMES ------------------------------------------------------------------------------------------------*/
 /* COLOUR LEGEND */
 
 /* Default - turquoise */
@@ -2295,15 +2295,15 @@ table th{border-bottom:#e4e4e4 1px solid}
 .campl-information-panel .campl-notifications-icon{color:#0072cf}
 
 
-/* 10.0 CSS3 ANIMATIONS ----------------------------------------------------------------------------------------------*/
+/* 9.0 CSS3 ANIMATIONS ----------------------------------------------------------------------------------------------*/
 
-/* 11.0 FOUC ----------------------------------------------------------------------------------------------*/
+/* 10.0 FOUC ----------------------------------------------------------------------------------------------*/
 
 .js #global-header-controls{display:none}
 .js .campl-carousel li{display:none}
 .js .campl-secondary-content{display:none}
 
-/* 12.0 PRINT STYLES ------------------------------------------------------------------------------------------------*/
+/* 11.0 PRINT STYLES ------------------------------------------------------------------------------------------------*/
 
 @media print {
 
