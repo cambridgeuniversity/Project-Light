@@ -255,15 +255,15 @@ a.campl-external{background: url("../images/interface/icon-external-link.png") n
 .campl-focus-link{width:33px;height:33px;background:#313131 url(../images/interface/icon-fwd-btn.png) 14px 13px no-repeat;position:absolute;bottom:0;right:0}
 
 /* Inline links */
-.campl-icon{display:inline-block;background:url(../images/interface/icon-links-sprite.png) no-repeat 0 0;width:20px;height:25px;margin-right:2px;position:relative;top:5px}
 
-.campl-print-icon{background-position:0 5px}
-.campl-lock-icon{background-position: 0 -25px}
-.campl-help-icon{background-position: 0 -55px}
-.campl-info-icon{background-position: 0 -80px}
-.campl-excel-icon{background-position:0 -110px}
-.campl-pdf-icon{background-position:  0 -135px}
-.campl-word-icon{background-position: 0 -159px}
+.campl-print-icon{display:inline-block;background:url(../images/interface/icon-print.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-lock-icon{display:inline-block;background:url(../images/interface/icon-lock.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-help-icon{display:inline-block;background:url(../images/interface/icon-help.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-info-icon{display:inline-block;background:url(../images/interface/icon-info.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-excel-icon{display:inline-block;background:url(../images/interface/icon-links-excel.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-pdf-icon{display:inline-block;background:url(../images/interface/icon-links-pdf.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-word-icon{display:inline-block;background:url(../images/interface/icon-links-word.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-powerpoint-icon{display:inline-block;background:url(../images/interface/icon-links-powerpoint.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
 
 
 /* 4.0 FORMS --------------------------------------------------------------------------------------------------------*/
