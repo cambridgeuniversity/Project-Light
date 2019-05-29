@@ -583,7 +583,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-main-logo{padding:15px;display:block;float:left}
 .campl-main-logo:visited{text-decoration:none;border:0}
-.campl-homepage-header .campl-main-logo{display:none}
+.campl-homepage-header .campl-main-logo{display:none;}
 
 .campl-search-drawer{border-top:1px solid #3f3f3f;position:relative;z-index:5}
 
