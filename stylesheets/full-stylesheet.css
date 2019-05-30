@@ -2279,7 +2279,8 @@ table th{border-bottom:#e4e4e4 1px solid}
 .campl-theme-3 .campl-table tbody tr:hover td, .campl-theme-3 .campl-table tbody tr:hover th,
 .campl-theme-4 .campl-table tbody tr:hover td, .campl-theme-4 .campl-table tbody tr:hover th,
 .campl-theme-5 .campl-table tbody tr:hover td, .campl-theme-5 .campl-table tbody tr:hover th,
-.campl-theme-6 .campl-table tbody tr:hover td, .campl-theme-6 .campl-table tbody tr:hover th{background-color: #e4e4e4;}
+.campl-theme-6 .campl-table tbody tr:hover td, .campl-theme-6 .campl-table tbody tr:hover th,
+.campl-theme-7 .campl-table tbody tr:hover td, .campl-theme-7 .campl-table tbody tr:hover th{background-color: #e4e4e4;}
 .campl-vertical-stacking-table th{border-left:#e4e4e4 1px solid}
 
 .campl-tertiary-navigation{border:1px solid #e4e4e4;border-width:1px 1px 0 1px }
