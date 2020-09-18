@@ -1462,7 +1462,7 @@ th.campl-alt{background:#fff;color:#28828a}
 .campl-local-navigation a:hover,
 .campl-local-navigation a:active{background-color:#1e7680;}
 .campl-local-navigation a.campl-selected{background:#28828a}
-.campl-local-navigation li.campl-hover a{background-color:#003a41;border-bottom:0}
+.campl-local-navigation li.campl-hover a{background-color:#003a41;border-bottom-width:1px; border-bottom-style:solid;}
 .campl-local-navigation li.campl-sub li a{background-color: #003a41;border-right:0; }
 .campl-local-navigation li.campl-sub li li a{border-bottom:1px solid #0c5963;}
 .campl-local-navigation li.campl-sub li:last-child a {border-bottom:0;}
